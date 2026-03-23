@@ -1,6 +1,6 @@
 'use client'
 
-import { useRef } from 'react'
+import { useMemo, useRef } from 'react'
 import * as THREE from 'three'
 import { useFrame } from '@react-three/fiber'
 import { useTexture } from '@react-three/drei'
@@ -42,59 +42,104 @@ const LOGOS = [
   '/trader_s_life.jpg',
 ]
 
-function AvatarNode({ texture, index, isYoutube, groupRef, reveal }) {
-  const meshRef = useRef()
+const MIN_X = Math.min(...NODE_POSITIONS.map((p) => p.x))
+const MAX_X = Math.max(...NODE_POSITIONS.map((p) => p.x))
+const RANGE_X = MAX_X - MIN_X
+
+function Node({
+  index,
+  texture,
+  isYoutube,
+  groupRef,
+  scanProgress,
+}) {
+  const nodeRef = useRef()
+  const hiddenRef = useRef()
+  const avatarRef = useRef()
 
   useFrame((state) => {
     const t = state.clock.getElapsedTime()
+    if (!nodeRef.current || !groupRef.current) return
+
     const base = NODE_POSITIONS[index]
 
     const x = base.x + Math.sin(t * 0.35 + index * 0.7) * 0.035
     const y = base.y + Math.sin(t * 0.9 + index) * 0.11
     const z = base.z + Math.cos(t * 0.4 + index * 0.45) * 0.03
 
-    if (!meshRef.current || !groupRef.current) return
-
-    meshRef.current.position.set(x, y, z)
+    nodeRef.current.position.set(x, y, z)
 
     const baseScale = isYoutube ? 0.42 : 0.28
+    const normalizedX = RANGE_X === 0 ? 0 : (base.x - MIN_X) / RANGE_X
 
-    // scan threshold by horizontal placement
-    const normalizedX = (base.x + 5.5) / 11
-    const localReveal = THREE.MathUtils.clamp((reveal - normalizedX * 0.55) / 0.18, 0, 1)
+    const revealStart = normalizedX * 0.72
+    const revealWindow = 0.16
+    const localReveal = THREE.MathUtils.clamp(
+      (scanProgress - revealStart) / revealWindow,
+      0,
+      1
+    )
 
-    const scale = baseScale * (0.72 + localReveal * 0.28)
-    meshRef.current.scale.set(scale, scale, 1)
-    meshRef.current.lookAt(state.camera.position)
+    const hiddenScale = baseScale * (1 - localReveal * 0.12)
+    const avatarScale = baseScale * (0.88 + localReveal * 0.12)
 
-    const material = meshRef.current.material
-    material.opacity = texture ? 0.12 + localReveal * 0.88 : 0.08 + localReveal * 0.18
-    material.color.set(texture ? '#ffffff' : '#334155')
+    if (hiddenRef.current) {
+      hiddenRef.current.scale.set(hiddenScale, hiddenScale, 1)
+      hiddenRef.current.material.opacity = 0.88 - localReveal * 0.82
+      hiddenRef.current.material.color.set('#0f172a')
+    }
+
+    if (avatarRef.current) {
+      avatarRef.current.scale.set(avatarScale, avatarScale, 1)
+      avatarRef.current.material.opacity = texture
+        ? localReveal
+        : 0.06 + localReveal * 0.08
+
+      avatarRef.current.material.color.set(texture ? '#ffffff' : '#334155')
+    }
+
+    nodeRef.current.lookAt(state.camera.position)
   })
 
   return (
-    <mesh ref={meshRef}>
-      <circleGeometry args={[1, 48]} />
-      <meshBasicMaterial
-        map={texture || null}
-        color={texture ? '#ffffff' : '#334155'}
-        transparent
-        opacity={0}
-        depthWrite={false}
-        toneMapped={false}
-      />
-    </mesh>
+    <group ref={nodeRef}>
+      <mesh ref={hiddenRef}>
+        <circleGeometry args={[1, 48]} />
+        <meshBasicMaterial
+          color="#0f172a"
+          transparent
+          opacity={0.88}
+          depthWrite={false}
+          toneMapped={false}
+        />
+      </mesh>
+
+      <mesh ref={avatarRef} position={[0, 0, 0.002]}>
+        <circleGeometry args={[1, 48]} />
+        <meshBasicMaterial
+          map={texture || null}
+          color={texture ? '#ffffff' : '#334155'}
+          transparent
+          opacity={0}
+          depthWrite={false}
+          toneMapped={false}
+        />
+      </mesh>
+    </group>
   )
 }
 
-export default function NetworkSystem({ reveal }) {
+export default function NetworkSystem({ scanProgress = 0 }) {
   const groupRef = useRef()
   const textures = useTexture(LOGOS)
 
-  textures.forEach((tex) => {
-    tex.colorSpace = THREE.SRGBColorSpace
-    tex.needsUpdate = true
-  })
+  const safeTextures = useMemo(() => {
+    return textures.map((tex) => {
+      tex.colorSpace = THREE.SRGBColorSpace
+      tex.needsUpdate = true
+      return tex
+    })
+  }, [textures])
 
   useFrame((_, delta) => {
     if (!groupRef.current) return
@@ -104,13 +149,13 @@ export default function NetworkSystem({ reveal }) {
   return (
     <group ref={groupRef}>
       {Array.from({ length: TOTAL_NODES }).map((_, i) => (
-        <AvatarNode
+        <Node
           key={i}
           index={i}
+          texture={safeTextures[i] || null}
           isYoutube={NODE_TYPES[i] === 'youtube'}
-          texture={textures[i] || null}
           groupRef={groupRef}
-          reveal={reveal}
+          scanProgress={scanProgress}
         />
       ))}
     </group>

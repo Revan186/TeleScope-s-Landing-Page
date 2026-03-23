@@ -5,7 +5,7 @@ import Stars from './Stars'
 import GalaxyCore from './GalaxyCore'
 import NetworkSystem from './NetworkSystem'
 
-export default function Scene({ reveal }) {
+export default function Scene({ scanProgress }) {
   return (
     <Canvas
       camera={{ position: [0, 0.2, 7], fov: 45 }}
@@ -18,7 +18,7 @@ export default function Scene({ reveal }) {
 
       <Stars />
       <GalaxyCore />
-      <NetworkSystem reveal={reveal} />
+      <NetworkSystem scanProgress={scanProgress} />
     </Canvas>
   )
 }
