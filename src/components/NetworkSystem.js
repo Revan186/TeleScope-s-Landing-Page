@@ -42,9 +42,7 @@ const LOGOS = [
   '/trader_s_life.jpg',
 ]
 
-const DUMMY = new THREE.Object3D()
-
-function AvatarNode({ texture, index, isYoutube, groupRef }) {
+function AvatarNode({ texture, index, isYoutube, groupRef, reveal }) {
   const meshRef = useRef()
 
   useFrame((state) => {
@@ -58,10 +56,20 @@ function AvatarNode({ texture, index, isYoutube, groupRef }) {
     if (!meshRef.current || !groupRef.current) return
 
     meshRef.current.position.set(x, y, z)
-    const scale = isYoutube ? 0.42 : 0.28
-    meshRef.current.scale.set(scale, scale, 1)
 
+    const baseScale = isYoutube ? 0.42 : 0.28
+
+    // scan threshold by horizontal placement
+    const normalizedX = (base.x + 5.5) / 11
+    const localReveal = THREE.MathUtils.clamp((reveal - normalizedX * 0.55) / 0.18, 0, 1)
+
+    const scale = baseScale * (0.72 + localReveal * 0.28)
+    meshRef.current.scale.set(scale, scale, 1)
     meshRef.current.lookAt(state.camera.position)
+
+    const material = meshRef.current.material
+    material.opacity = texture ? 0.12 + localReveal * 0.88 : 0.08 + localReveal * 0.18
+    material.color.set(texture ? '#ffffff' : '#334155')
   })
 
   return (
@@ -69,8 +77,9 @@ function AvatarNode({ texture, index, isYoutube, groupRef }) {
       <circleGeometry args={[1, 48]} />
       <meshBasicMaterial
         map={texture || null}
-        color={texture ? '#ffffff' : '#111111'}
+        color={texture ? '#ffffff' : '#334155'}
         transparent
+        opacity={0}
         depthWrite={false}
         toneMapped={false}
       />
@@ -78,7 +87,7 @@ function AvatarNode({ texture, index, isYoutube, groupRef }) {
   )
 }
 
-export default function NetworkSystem() {
+export default function NetworkSystem({ reveal }) {
   const groupRef = useRef()
   const textures = useTexture(LOGOS)
 
@@ -101,6 +110,7 @@ export default function NetworkSystem() {
           isYoutube={NODE_TYPES[i] === 'youtube'}
           texture={textures[i] || null}
           groupRef={groupRef}
+          reveal={reveal}
         />
       ))}
     </group>

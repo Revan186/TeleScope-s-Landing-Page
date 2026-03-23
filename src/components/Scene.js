@@ -4,9 +4,8 @@ import { Canvas } from '@react-three/fiber'
 import Stars from './Stars'
 import GalaxyCore from './GalaxyCore'
 import NetworkSystem from './NetworkSystem'
-import LogoNodes from './LogoNodes'
 
-export default function Scene() {
+export default function Scene({ reveal }) {
   return (
     <Canvas
       camera={{ position: [0, 0.2, 7], fov: 45 }}
@@ -15,13 +14,11 @@ export default function Scene() {
     >
       <color attach="background" args={['#030014']} />
       <fog attach="fog" args={['#030014', 18, 60]} />
-
       <ambientLight intensity={0.2} />
 
       <Stars />
       <GalaxyCore />
-      <NetworkSystem /> 
-     
+      <NetworkSystem reveal={reveal} />
     </Canvas>
   )
 }

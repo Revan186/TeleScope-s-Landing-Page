@@ -1,9 +1,15 @@
 'use client'
 
-export default function HeroUI() {
+export default function HeroUI({ reveal }) {
   return (
     <div className="absolute inset-0 flex flex-col items-center justify-center px-6">
-      <div className="hero-copy max-w-4xl text-center">
+      <div
+        className="max-w-4xl text-center transition-all duration-700"
+        style={{
+          opacity: Math.max(0, (reveal - 0.22) / 0.45),
+          transform: `translateY(${20 - Math.max(0, (reveal - 0.22) / 0.45) * 20}px)`,
+        }}
+      >
         <h1 className="text-white text-4xl md:text-6xl lg:text-7xl font-semibold leading-[0.95] tracking-tight">
           The Premier Web3 Media Infrastructure
         </h1>
@@ -18,25 +24,6 @@ export default function HeroUI() {
           </button>
         </div>
       </div>
-
-      <style jsx>{`
-        .hero-copy {
-          opacity: 0;
-          transform: translateY(18px) scale(0.985);
-          animation: heroReveal 1.2s ease 0.8s forwards;
-        }
-
-        @keyframes heroReveal {
-          0% {
-            opacity: 0;
-            transform: translateY(18px) scale(0.985);
-          }
-          100% {
-            opacity: 1;
-            transform: translateY(0) scale(1);
-          }
-        }
-      `}</style>
     </div>
   )
 }
