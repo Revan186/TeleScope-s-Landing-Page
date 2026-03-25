@@ -320,9 +320,10 @@ export default function TelescopeMediaKit() {
       name: "Сайлер",
       image: "/sailer_1.jpg",
       badge: "Top Offer",
-      headline: "Accessible trading creator for scalable campaign testing",
+      headline:
+        "Award-winning trusted cryptocurrency influencer with loyal fanbase ",
       description:
-        "A reliable mid-tier asset suited for cost-efficient integrations and performance testing. Best used for validating creatives, expanding reach, and supporting larger campaign rollouts.",
+        "The best deal in the network for combination of very affordable price and result. ",
       platforms: [
         { label: "YouTube Integration", value: "$1,625" },
         { label: "Telegram Placement", value: "$500" },
@@ -480,6 +481,16 @@ export default function TelescopeMediaKit() {
                     pixel-perfect click attribution for every single creator and
                     platform. Bot traffic is filtered out — only real live
                     users.
+                  </p>
+                </div>
+
+                <div className="flex items-start gap-4">
+                  <div className="mt-[10px] h-[7px] w-[7px] rounded-full bg-[#59c7ff]" />
+                  <p className="text-[19px] leading-8 text-white/76">
+                    Zero Counterparty Risk: Underlying funds are routed
+                    automatically via decentralized Web3 escrow, guaranteeing
+                    secure and precise campaign execution and avoiding payout
+                    delays/issues of ad agencies
                   </p>
                 </div>
               </div>
