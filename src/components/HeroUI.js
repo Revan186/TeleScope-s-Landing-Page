@@ -1,4 +1,6 @@
-'use client'
+"use client";
+
+import Link from "next/link";
 
 export default function HeroUI() {
   return (
@@ -9,15 +11,19 @@ export default function HeroUI() {
         </h1>
 
         <p className="mt-6 text-gray-300 text-sm md:text-base lg:text-lg max-w-2xl mx-auto leading-relaxed">
-          Access 5M+ verified crypto users across the CIS region — through a single, compliant gateway.
+          Access 5M+ verified crypto users across the CIS region — through a
+          single, compliant gateway.
         </p>
 
         <div className="mt-8">
-          <button className="pointer-events-auto px-6 py-3 rounded-xl bg-white text-black text-sm md:text-base font-medium hover:opacity-90 transition">
+          <Link
+            href="/media-kit"
+            className="pointer-events-auto inline-flex px-6 py-3 rounded-xl bg-white text-black text-sm md:text-base font-medium hover:opacity-90 transition"
+          >
             Request a Media Plan
-          </button>
+          </Link>
         </div>
       </div>
     </div>
-  )
+  );
 }
