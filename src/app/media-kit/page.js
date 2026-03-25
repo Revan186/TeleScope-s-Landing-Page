@@ -448,49 +448,58 @@ export default function TelescopeMediaKit() {
           </div>
 
           <div className="relative z-20 pt-14">
-            <div className="max-w-[920px]">
-              <h1 className="text-[72px] leading-[0.92] font-semibold tracking-[-0.05em] text-white">
-                The Premier Web3
+            <div className="max-w-[950px]">
+              <h1 className="text-[72px] leading-[0.92] font-semibold tracking-[-0.04em] text-white">
+                Web3 media infrastructure
                 <br />
-                Media Infrastructure
+                that brings high-intent
+                <br />
+                crypto traders at scale.
               </h1>
 
-              <div className="mt-8 max-w-[860px] space-y-4">
+              <div className="mt-10 max-w-[860px] space-y-5">
                 <div className="flex items-start gap-4">
-                  <div className="mt-[10px] h-[7px] w-[7px] rounded-full bg-[#59c7ff]" />
-                  <p className="text-[19px] leading-8 text-white/76">
-                    Omnichannel Market Domination: Synchronize your campaigns
-                    across the 40+ most influential crypto communities in the
-                    CIS region simultaneously.
+                  <div className="mt-[11px] h-[7px] w-[7px] shrink-0 rounded-full bg-[#59c7ff]" />
+                  <p className="text-[19px] leading-8 text-white/80">
+                    <strong className="text-white font-semibold">
+                      Real communities, real users:
+                    </strong>{" "}
+                    Run synchronized campaigns across 40+ active crypto channels
+                    in the CIS region. No dead traffic, no dealing with dozens
+                    of admins.
                   </p>
                 </div>
 
                 <div className="flex items-start gap-4">
-                  <div className="mt-[10px] h-[7px] w-[7px] rounded-full bg-[#59c7ff]" />
-                  <p className="text-[19px] leading-8 text-white/76">
-                    Unified Corporate Billing: Eliminate accounting friction.
-                    Launch massive network-wide takeovers using one legally
-                    compliant, centralized contract.
+                  <div className="mt-[11px] h-[7px] w-[7px] shrink-0 rounded-full bg-[#59c7ff]" />
+                  <p className="text-[19px] leading-8 text-white/80">
+                    <strong className="text-white font-semibold">
+                      Single B2B invoice:
+                    </strong>{" "}
+                    Launch large-scale campaigns through one contract. Simple
+                    for your marketing, finance and compliance teams.
                   </p>
                 </div>
 
                 <div className="flex items-start gap-4">
-                  <div className="mt-[10px] h-[7px] w-[7px] rounded-full bg-[#59c7ff]" />
-                  <p className="text-[19px] leading-8 text-white/76">
-                    Deterministic Analytics: Stop guessing your ROI. We provide
-                    pixel-perfect click attribution for every single creator and
-                    platform. Bot traffic is filtered out — only real live
-                    users.
+                  <div className="mt-[11px] h-[7px] w-[7px] shrink-0 rounded-full bg-[#59c7ff]" />
+                  <p className="text-[19px] leading-8 text-white/80">
+                    <strong className="text-white font-semibold">
+                      Clear, bot-free analytics:
+                    </strong>{" "}
+                    See exactly which channels bring real users. No guesswork,
+                    no inflated numbers.
                   </p>
                 </div>
 
                 <div className="flex items-start gap-4">
-                  <div className="mt-[10px] h-[7px] w-[7px] rounded-full bg-[#59c7ff]" />
-                  <p className="text-[19px] leading-8 text-white/76">
-                    Zero Counterparty Risk: Underlying funds are routed
-                    automatically via decentralized Web3 escrow, guaranteeing
-                    secure and precise campaign execution and avoiding payout
-                    delays/issues of ad agencies
+                  <div className="mt-[11px] h-[7px] w-[7px] shrink-0 rounded-full bg-[#59c7ff]" />
+                  <p className="text-[19px] leading-8 text-white/80">
+                    <strong className="text-white font-semibold">
+                      Secure campaign execution:
+                    </strong>{" "}
+                    Payments are handled through automated escrow, ensuring
+                    campaigns run smoothly and on time.
                   </p>
                 </div>
               </div>
