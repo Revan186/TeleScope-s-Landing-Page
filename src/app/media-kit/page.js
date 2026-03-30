@@ -124,7 +124,7 @@ export default function TelescopeMediaKit() {
       image: "/pro-blockchain_media.jpg",
       name: "Pro Blockchain",
       type: "Telegram Placement",
-      views: "23.6k avg views",
+      views: "25k avg views over first 2 days",
       audience: "190k subs",
       price: "$2,000",
     },
@@ -277,11 +277,12 @@ export default function TelescopeMediaKit() {
       image: "/crypto_bosh.jpg",
       badge: "Flagship Creator",
       headline:
-        "Multi-platform crypto creator with high-trust distribution across YouTube and Telegram",
+        "One of the highest engagement creators in the CIS space, focused on actionable trading content and platform deep-dives.",
       description:
-        "A premium creator asset combining narrative-driven YouTube integrations with a verified Telegram channel and optional Instagram amplification. Best suited for flagship campaigns, exchange launches, wallets, and high-quality crypto products that require strong positioning.",
+        "YouTube channel videos get 140k+ views; the entire audience consists of crypto traders, with massive trust and conversion.",
       platforms: [
         { label: "YouTube Review", value: "$18,750" },
+        { label: "Telegram Placement", value: "$3,125" },
         { label: "Instagram Bonus", value: "230k audience" },
       ],
       metrics: ["382k YouTube • 155k Telegram • Verified channel"],
@@ -291,13 +292,13 @@ export default function TelescopeMediaKit() {
       image: "/slezi_satoshi.jpg",
       badge: "Top Offer",
       headline:
-        "Bitcoin-first media ecosystem with YouTube authority and Telegram reinforcement",
+        "A cornerstone media ecosystem in the CIS with long-term audience loyalty and a reputation for deep analytical content.",
       description:
-        "A trusted crypto media environment combining strong long-form YouTube presence with high-retention Telegram reach. Best suited for brands that want authority, repeat exposure, and deeper distribution across a Bitcoin-first audience.",
+        "YouTube channel is a go-to for technical deep-dives, attracting high-LTV traders and seasoned investors who prioritize platform stability. Massive authority, high retention, and an audience that consistently generates significant trading volume.",
       platforms: [
-        { label: "YouTube Integration", value: "$5,000" },
-        { label: "Telegram Placement", value: "$2,000" },
-        { label: "Combined Entry", value: "$7,000" },
+        { label: "YouTube Integration", value: "from $6,000" },
+        { label: "Telegram Placement", value: "$2,500" },
+        { label: "Combined Entry", value: "$8,500" },
       ],
       metrics: ["237k YouTube • 134k Telegram • Extended ecosystem"],
     },
@@ -306,9 +307,9 @@ export default function TelescopeMediaKit() {
       image: "/gennady_m_youtube.jpg",
       badge: "Flagship Creator",
       headline:
-        "Performance-driven trading creator with strong YouTube + Telegram synergy",
+        "A premier media resource for long-term investors and high-net-worth (HNW) crypto holders.",
       description:
-        "A reliable creator asset built around practical trading content and consistent audience engagement. Best suited for exchanges, trading tools, and products requiring direct response from an active trader audience.",
+        "Focused on market cycles, global economics, and risk management, attracting a mature audience with above-average deposits.",
       platforms: [
         { label: "YouTube Integration", value: "$3,750" },
         { label: "Full Sponsored Video", value: "$8,750" },
@@ -321,9 +322,9 @@ export default function TelescopeMediaKit() {
       image: "/sailer_1.jpg",
       badge: "Top Offer",
       headline:
-        "Award-winning trusted cryptocurrency influencer with loyal fanbase ",
+        "Award-winning trusted cryptocurrency influencer with a loyal fanbase",
       description:
-        "The best deal in the network for combination of very affordable price and result. ",
+        "The best deal in the network for the combination of very affordable price and result.",
       platforms: [
         { label: "YouTube Integration", value: "$1,625" },
         { label: "Telegram Placement", value: "$500" },
@@ -336,9 +337,9 @@ export default function TelescopeMediaKit() {
       image: "/trade001k.jpg",
       badge: "Premium Channel",
       headline:
-        "Flagship trader-focused Telegram channel with high-intent audience",
+        "Aggressive day-trading channel led by professional traders. Focus is 100% on live setups and leverage plays.",
       description:
-        "A premium Telegram asset within the a01k ecosystem, built around real trading activity and experienced market participants. Best suited for exchanges, trading tools, and infrastructure targeting active traders.",
+        "The highest click-through rates (CTR) in our network. Perfect for driving immediate deposits and active trading sessions.",
       platforms: [{ label: "Telegram Placement", value: "$3,125" }],
       metrics: [
         "116k subscribers • 23–25k avg views • Advanced trader audience",
@@ -349,16 +350,17 @@ export default function TelescopeMediaKit() {
       image: "/pro-blockchain_media.jpg",
       badge: "Strategic Partner",
       headline:
-        "Crypto media ecosystem built for scaled multi-channel campaigns",
+        "The largest crypto media network in the CIS region since 2017, providing massive presence across YouTube and Telegram.",
       description:
-        "A broader media asset built for brands that need more than one-off placement inventory. Best suited for exchanges, launches, and premium crypto campaigns requiring repeated visibility across Telegram and YouTube.",
-      platforms: [
-        { label: "YouTube + Telegram Placement", value: "$5,625" },
-        { label: "Full Ecosystem Campaign", value: "$31,250" },
-      ],
-      metrics: [
-        "188k Telegram • 232k YouTube • 67k YouTube Live • Ecosystem format",
-      ],
+        "High-frequency exposure through 25k+ views per Telegram post and 25–55k views on YouTube deep dives and podcasts. Massive reach and market dominance, trusted by Tier-1 exchanges for major launches and wide-scale user acquisition.",
+        platforms: [
+          { label: "Telegram Placement", value: "$2,000" },
+          { label: "YouTube Integration", value: "$2,500" },
+          { label: "YT Review + Telegram", value: "$5,625" },
+        ],
+        metrics: [
+          "190k Telegram • 56.7k Pro Crypto Trading • 232k YouTube • 25–55k YouTube views",
+        ],
     },
   ];
 
@@ -437,7 +439,7 @@ export default function TelescopeMediaKit() {
           <div className="absolute inset-0 opacity-[0.06] bg-[linear-gradient(to_right,rgba(255,255,255,0.06)_1px,transparent_1px),linear-gradient(to_bottom,rgba(255,255,255,0.06)_1px,transparent_1px)] bg-[size:48px_48px]" />
           <div className="absolute left-1/2 top-[26%] h-[260px] w-[260px] -translate-x-1/2 rounded-full bg-[#4DA3FF]/18 blur-[130px]" />
           <div className="absolute left-[62%] top-[16%] h-[220px] w-[220px] -translate-x-1/2 rounded-full bg-[#8a5cf6]/14 blur-[120px]" />
-
+  
           <div className="relative z-20 flex items-center justify-between">
             <div className="text-sm uppercase tracking-[0.38em] text-white/45">
               TeleScope Media Kit
@@ -446,96 +448,70 @@ export default function TelescopeMediaKit() {
               Q1 2026
             </div>
           </div>
-
+  
           <div className="relative z-20 pt-14">
-            <div className="max-w-[950px]">
-              <h1 className="text-[72px] leading-[0.92] font-semibold tracking-[-0.04em] text-white">
-                Web3 media infrastructure
-                <br />
-                that brings high-intent
-                <br />
-                crypto traders at scale.
-              </h1>
+  <div className="max-w-[950px]">
+    <h1 className="text-[58px] leading-[1.02] font-semibold tracking-[-0.035em] text-white max-w-[820px]">
+      Access 4M+ crypto traders across 40+ of the most trusted trading communities in the CIS
+    </h1>
 
-              <div className="mt-10 max-w-[860px] space-y-5">
-                <div className="flex items-start gap-4">
-                  <div className="mt-[11px] h-[7px] w-[7px] shrink-0 rounded-full bg-[#59c7ff]" />
-                  <p className="text-[19px] leading-8 text-white/80">
-                    <strong className="text-white font-semibold">
-                      Real communities, real users:
-                    </strong>{" "}
-                    Run synchronized campaigns across 40+ active crypto channels
-                    in the CIS region. No dead traffic, no dealing with dozens
-                    of admins.
-                  </p>
-                </div>
+    <div className="mt-10 text-[26px] leading-[1.3] italic text-white/85 tracking-[-0.01em]">
+      But without headaches thanks to:
+    </div>
 
-                <div className="flex items-start gap-4">
-                  <div className="mt-[11px] h-[7px] w-[7px] shrink-0 rounded-full bg-[#59c7ff]" />
-                  <p className="text-[19px] leading-8 text-white/80">
-                    <strong className="text-white font-semibold">
-                      Single B2B invoice:
-                    </strong>{" "}
-                    Launch large-scale campaigns through one contract. Simple
-                    for your marketing, finance and compliance teams.
-                  </p>
-                </div>
+    <div className="mt-8 space-y-5">
+      <div className="flex items-start gap-4">
+        <div className="mt-[11px] h-[7px] w-[7px] shrink-0 rounded-full bg-[#59c7ff]" />
+        <p className="text-[19px] leading-8 text-white/80">
+          <strong className="text-white font-semibold">
+            Single Split Payment and One Invoice:
+          </strong>{" "}
+          Execute a single payment and receive one invoice. No coordination on your part.
+        </p>
+      </div>
 
-                <div className="flex items-start gap-4">
-                  <div className="mt-[11px] h-[7px] w-[7px] shrink-0 rounded-full bg-[#59c7ff]" />
-                  <p className="text-[19px] leading-8 text-white/80">
-                    <strong className="text-white font-semibold">
-                      Clear, bot-free analytics:
-                    </strong>{" "}
-                    See exactly which channels bring real users. No guesswork,
-                    no inflated numbers.
-                  </p>
-                </div>
+      <div className="flex items-start gap-4">
+        <div className="mt-[11px] h-[7px] w-[7px] shrink-0 rounded-full bg-[#59c7ff]" />
+        <p className="text-[19px] leading-8 text-white/80">
+          <strong className="text-white font-semibold">
+            Real-Time Analytics:
+          </strong>{" "}
+          Track campaign success live with anti-bot filtering and performance graphs for every channel. Can be extended for your internal API to track actual deposits and FTD amounts in real time.
+        </p>
+      </div>
+    </div>
+  </div>
 
-                <div className="flex items-start gap-4">
-                  <div className="mt-[11px] h-[7px] w-[7px] shrink-0 rounded-full bg-[#59c7ff]" />
-                  <p className="text-[19px] leading-8 text-white/80">
-                    <strong className="text-white font-semibold">
-                      Secure campaign execution:
-                    </strong>{" "}
-                    Payments are handled through automated escrow, ensuring
-                    campaigns run smoothly and on time.
-                  </p>
-                </div>
-              </div>
-            </div>
+  <div className="relative mt-16 h-[560px] overflow-hidden rounded-[30px] border border-white/8 bg-white/[0.02]">
+    <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(77,163,255,0.08),transparent_45%)]" />
+    <div className="absolute inset-0">
+      {LOGOS.map(function (src, index) {
+        const item = HERO_LOGO_POSITIONS[index];
+        return (
+          <img
+            key={src}
+            src={src}
+            alt=""
+            className="absolute rounded-[22px] object-cover border border-white/10 shadow-[0_20px_60px_rgba(0,0,0,0.45)]"
+            style={{
+              top: item.top,
+              left: item.left,
+              width: `${item.size}px`,
+              height: `${item.size}px`,
+              transform: `rotate(${item.rotate}deg)`,
+              opacity: item.opacity,
+            }}
+          />
+        );
+      })}
+    </div>
 
-            <div className="relative mt-16 h-[560px] overflow-hidden rounded-[30px] border border-white/8 bg-white/[0.02]">
-              <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(77,163,255,0.08),transparent_45%)]" />
-              <div className="absolute inset-0">
-                {LOGOS.map(function (src, index) {
-                  const item = HERO_LOGO_POSITIONS[index];
-                  return (
-                    <img
-                      key={src}
-                      src={src}
-                      alt=""
-                      className="absolute rounded-[22px] object-cover border border-white/10 shadow-[0_20px_60px_rgba(0,0,0,0.45)]"
-                      style={{
-                        top: item.top,
-                        left: item.left,
-                        width: `${item.size}px`,
-                        height: `${item.size}px`,
-                        transform: `rotate(${item.rotate}deg)`,
-                        opacity: item.opacity,
-                      }}
-                    />
-                  );
-                })}
-              </div>
-
-              <div className="absolute inset-x-0 top-0 h-24 bg-gradient-to-b from-[#07090f] to-transparent" />
-              <div className="absolute inset-x-0 bottom-0 h-24 bg-gradient-to-t from-[#07090f] to-transparent" />
-              <div className="absolute inset-y-0 left-0 w-16 bg-gradient-to-r from-[#07090f] to-transparent" />
-              <div className="absolute inset-y-0 right-0 w-16 bg-gradient-to-l from-[#07090f] to-transparent" />
-            </div>
-          </div>
-
+    <div className="absolute inset-x-0 top-0 h-24 bg-gradient-to-b from-[#07090f] to-transparent" />
+    <div className="absolute inset-x-0 bottom-0 h-24 bg-gradient-to-t from-[#07090f] to-transparent" />
+    <div className="absolute inset-y-0 left-0 w-16 bg-gradient-to-r from-[#07090f] to-transparent" />
+    <div className="absolute inset-y-0 right-0 w-16 bg-gradient-to-l from-[#07090f] to-transparent" />
+  </div>
+</div>
           <div className="relative z-20 flex items-end justify-between gap-10 pt-14">
             <div className="max-w-[520px]">
               <div className="text-[13px] uppercase tracking-[0.22em] text-white/35">
@@ -547,7 +523,7 @@ export default function TelescopeMediaKit() {
                 trader audiences across CIS.
               </div>
             </div>
-
+  
             <div className="grid grid-cols-3 gap-4 min-w-[520px]">
               <div className="rounded-[24px] border border-white/10 bg-black/20 px-5 py-5 backdrop-blur-md">
                 <div className="text-[30px] font-semibold tracking-tight text-white">
@@ -801,17 +777,15 @@ export default function TelescopeMediaKit() {
                       Crypto Headlines
                     </h3>
                     <p className="pt-4 text-[18px] leading-8 text-white/76">
-                      Broad crypto media reach with strong Telegram distribution
-                      value
-                    </p>
+                 
+  One of the most-read news networks in the region. 30k+ views per post within 24 hours.
+                   </p>
+                    
                   </div>
 
                   <p className="text-[15px] leading-7 text-white/58">
-                    A larger-scale Telegram media asset suited for broader
-                    awareness, campaign reinforcement, and visibility expansion
-                    across active crypto audiences.
-                  </p>
-
+  Best for massive reach and staying at the top of the daily news cycle for active market participants.
+</p>
                   <div className="pt-1 text-[13px] leading-6 text-white/50">
                     137k subscribers • 26k avg views • Broad crypto audience
                   </div>
@@ -831,229 +805,120 @@ export default function TelescopeMediaKit() {
             </div>
 
             <div className="rounded-[30px] border border-[#7e6cff]/20 bg-[linear-gradient(135deg,rgba(77,163,255,0.06),rgba(138,92,246,0.10))] overflow-hidden">
-              <div className="grid grid-cols-[0.95fr_1.25fr] min-h-[340px] border-b border-white/8">
-                <div className="relative overflow-hidden border-r border-white/8">
-                  <img
-                    src="/pro-blockchain_media.jpg"
-                    alt="Pro Blockchain"
-                    className="h-full w-full object-cover"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-[#07090f] via-[#07090f]/20 to-transparent" />
-                  <div className="absolute left-6 top-6 rounded-full border border-white/10 bg-black/35 px-4 py-2 text-[11px] uppercase tracking-[0.22em] text-[#d7c9ff] backdrop-blur-md">
-                    Strategic Partner
-                  </div>
-                </div>
+  <div className="p-8 md:p-9">
+    <div className="flex items-start justify-between gap-6">
+      <div className="max-w-[760px]">
+        <div className="inline-flex rounded-full border border-white/10 bg-black/35 px-4 py-2 text-[11px] uppercase tracking-[0.22em] text-[#d7c9ff] backdrop-blur-md">
+          Strategic Partner
+        </div>
 
-                <div className="p-8 flex flex-col justify-between">
-                  <div>
-                    <div className="flex items-start justify-between gap-6">
-                      <div>
-                        <h3 className="text-[40px] leading-[0.94] font-semibold tracking-[-0.04em] text-white">
-                          Pro Blockchain
-                        </h3>
-                        <p className="pt-4 max-w-[720px] text-[18px] leading-8 text-white/76">
-                          Multi-platform crypto media ecosystem with YouTube and
-                          Telegram scale
-                        </p>
-                        <p className="pt-5 max-w-[760px] text-[15px] leading-7 text-white/58">
-                          A broader media asset built for brands that need more
-                          than one-off placement inventory. Best suited for
-                          exchanges, launches, and premium crypto campaigns
-                          requiring repeated visibility across YouTube and
-                          Telegram.
-                        </p>
-                      </div>
+        <h3 className="pt-6 text-[40px] leading-[0.94] font-semibold tracking-[-0.04em] text-white">
+          Pro Blockchain
+        </h3>
 
-                      <div className="shrink-0 rounded-[22px] border border-white/10 bg-black/25 px-6 py-5 text-right">
-                        <div className="text-[11px] uppercase tracking-[0.2em] text-white/42">
-                          YouTube + Telegram
-                        </div>
-                        <div className="pt-2 text-[34px] leading-none font-semibold tracking-[-0.03em] text-white">
-                          $5,625
-                        </div>
-                      </div>
-                    </div>
+        <p className="pt-4 max-w-[720px] text-[18px] leading-8 text-white/76">
+          The largest crypto media network in the CIS region since 2017, providing massive presence across YouTube and Telegram.
+        </p>
 
-                    <div className="mt-7 text-[13px] leading-6 text-white/50">
-                      188k Telegram • 232k YouTube • 67k YouTube Live •
-                      Ecosystem format
-                    </div>
-                  </div>
-                </div>
-              </div>
+        <p className="pt-5 max-w-[760px] text-[15px] leading-7 text-white/58">
+          High-frequency exposure through 25k+ views per Telegram post and 25–55k views on YouTube deep dives and podcasts. Massive reach and market dominance, trusted by Tier-1 exchanges for major launches and wide-scale user acquisition.
+        </p>
+      </div>
 
-              <div className="px-8 py-8 bg-[radial-gradient(circle_at_52%_8%,rgba(77,163,255,0.10),transparent_22%),radial-gradient(circle_at_65%_24%,rgba(138,92,246,0.14),transparent_30%),linear-gradient(180deg,rgba(255,255,255,0.015)_0%,rgba(255,255,255,0.005)_100%)]">
-                <div className="flex items-start justify-between gap-8">
-                  <div className="max-w-[520px]">
-                    <div className="text-[12px] uppercase tracking-[0.24em] text-[#9fcbff]/80">
-                      Full Ecosystem Campaign
-                    </div>
+    
+    </div>
 
-                    <h3 className="pt-5 text-[56px] leading-[0.9] font-semibold tracking-[-0.05em] text-white">
-                      Special
-                      <br />
-                      Project
-                    </h3>
+    <div className="mt-7 text-[13px] leading-6 text-white/50">
+      190k Pro Blockchain Telegram • 56.7k Pro Crypto Trading Telegram • 232k YouTube • 25k+ Telegram post views • 25–55k YouTube views
+    </div>
 
-                    <p className="pt-5 text-[16px] leading-8 text-white/66">
-                      A broader month-long media deployment across Pro
-                      Blockchain assets, combining repeated visibility, social
-                      distribution, short-form amplification, and
-                      lead-generation funnels.
-                    </p>
-                  </div>
+    <div className="mt-8 grid grid-cols-2 gap-4">
+      <div className="rounded-[22px] border border-white/10 bg-black/20 px-5 py-5">
+        <div className="text-[11px] uppercase tracking-[0.18em] text-[#9fcbff]/90">
+          Telegram Channel
+        </div>
+        <div className="pt-3 text-[24px] leading-[1.05] font-semibold tracking-[-0.03em] text-white">
+          Pro Blockchain
+        </div>
+        <div className="pt-3 text-[14px] leading-6 text-white/58">
+          Premium Telegram placement inside the flagship Pro Blockchain channel.
+        </div>
+        <div className="pt-4 text-[12px] uppercase tracking-[0.16em] text-white/42">
+          Avg Views
+        </div>
+        <div className="pt-2 text-[16px] leading-6 font-medium text-white/82">
+          25k avg views over first 2 days
+        </div>
+        <div className="pt-5 text-[28px] leading-none font-semibold tracking-[-0.03em] text-white">
+          $2,000
+        </div>
+      </div>
 
-                  <div className="w-[280px] shrink-0 rounded-[26px] border border-white/10 bg-black/25 px-6 py-6">
-                    <div className="text-[11px] uppercase tracking-[0.2em] text-white/42">
-                      Campaign Price
-                    </div>
-                    <div className="pt-3 text-[44px] leading-none font-semibold tracking-[-0.04em] text-[#9fcbff]">
-                      $31,250
-                    </div>
+      <div className="rounded-[22px] border border-white/10 bg-black/20 px-5 py-5">
+        <div className="text-[11px] uppercase tracking-[0.18em] text-[#9fcbff]/90">
+          Telegram Channel
+        </div>
+        <div className="pt-3 text-[24px] leading-[1.05] font-semibold tracking-[-0.03em] text-white">
+          Pro Crypto Trading
+        </div>
+        <div className="pt-3 text-[14px] leading-6 text-white/58">
+          Additional Telegram exposure through the Pro Crypto Trading audience.
+        </div>
+        <div className="pt-4 text-[12px] uppercase tracking-[0.16em] text-white/42">
+          Avg Views
+        </div>
+        <div className="pt-2 text-[16px] leading-6 font-medium text-white/82">
+          10.3k avg views
+        </div>
+        <div className="pt-5 text-[28px] leading-none font-semibold tracking-[-0.03em] text-white">
+          $1,500
+        </div>
+      </div>
 
-                    <div className="mt-6 h-px bg-white/10" />
+      <div className="rounded-[22px] border border-white/10 bg-black/20 px-5 py-5">
+        <div className="text-[11px] uppercase tracking-[0.18em] text-[#9fcbff]/90">
+          Bundle
+        </div>
+        <div className="pt-3 text-[24px] leading-[1.05] font-semibold tracking-[-0.03em] text-white">
+          YouTube Review + Pro Blockchain Telegram
+        </div>
+        <div className="pt-3 text-[14px] leading-6 text-white/58">
+          Full YouTube review combined with a Pro Blockchain Telegram placement.
+        </div>
+        <div className="pt-4 text-[12px] uppercase tracking-[0.16em] text-white/42">
+          Views
+        </div>
+        <div className="pt-2 text-[16px] leading-6 font-medium text-white/82">
+          25–55k YouTube + 25k Telegram (first 2 days)
+        </div>
+        <div className="pt-5 text-[28px] leading-none font-semibold tracking-[-0.03em] text-white">
+          $5,625
+        </div>
+      </div>
 
-                    <div className="mt-6 text-[11px] uppercase tracking-[0.18em] text-white/42">
-                      Estimated Views
-                    </div>
-                    <div className="pt-2 text-[34px] leading-none font-semibold tracking-[-0.03em] text-white">
-                      2M+
-                    </div>
-
-                    <div className="mt-6 text-[11px] uppercase tracking-[0.18em] text-white/42">
-                      Period
-                    </div>
-                    <div className="pt-2 text-[22px] leading-none font-semibold text-white">
-                      1 Month
-                    </div>
-                  </div>
-                </div>
-
-                <div className="mt-8 grid grid-cols-2 gap-x-6 gap-y-4">
-                  <div className="flex items-start gap-3 rounded-[20px] border border-white/10 bg-black/20 px-5 py-4">
-                    <div className="pt-[1px] text-[20px] leading-none text-[#59c7ff]">
-                      +
-                    </div>
-                    <div className="text-[15px] leading-7 text-white/76">
-                      Video review of the project on YouTube
-                    </div>
-                  </div>
-
-                  <div className="flex items-start gap-3 rounded-[20px] border border-white/10 bg-black/20 px-5 py-4">
-                    <div className="pt-[1px] text-[20px] leading-none text-[#59c7ff]">
-                      +
-                    </div>
-                    <div className="text-[15px] leading-7 text-white/76">
-                      Media blocks in YouTube and Telegram for 30 days
-                    </div>
-                  </div>
-
-                  <div className="flex items-start gap-3 rounded-[20px] border border-white/10 bg-black/20 px-5 py-4">
-                    <div className="pt-[1px] text-[20px] leading-none text-[#59c7ff]">
-                      +
-                    </div>
-                    <div className="text-[15px] leading-7 text-white/76">
-                      4 YouTube integrations in mention or pre-roll format
-                    </div>
-                  </div>
-
-                  <div className="flex items-start gap-3 rounded-[20px] border border-white/10 bg-black/20 px-5 py-4">
-                    <div className="pt-[1px] text-[20px] leading-none text-[#59c7ff]">
-                      +
-                    </div>
-                    <div className="text-[15px] leading-7 text-white/76">
-                      6 posts across the PB Telegram channel network
-                    </div>
-                  </div>
-
-                  <div className="flex items-start gap-3 rounded-[20px] border border-white/10 bg-black/20 px-5 py-4">
-                    <div className="pt-[1px] text-[20px] leading-none text-[#59c7ff]">
-                      +
-                    </div>
-                    <div className="text-[15px] leading-7 text-white/76">
-                      4 vertical videos for Instagram Reels, YouTube Shorts, and
-                      other short-form social media
-                    </div>
-                  </div>
-
-                  <div className="flex items-start gap-3 rounded-[20px] border border-white/10 bg-black/20 px-5 py-4">
-                    <div className="pt-[1px] text-[20px] leading-none text-[#59c7ff]">
-                      +
-                    </div>
-                    <div className="text-[15px] leading-7 text-white/76">
-                      Vertical funnels: lead generation through Reels and Shorts
-                    </div>
-                  </div>
-                </div>
-
-                <div className="mt-8 rounded-[24px] border border-white/10 bg-black/20 px-6 py-5">
-                  <div className="grid grid-cols-7 gap-4">
-                    <div>
-                      <div className="text-[11px] uppercase tracking-[0.18em] text-[#59c7ff]/90">
-                        YouTube
-                      </div>
-                      <div className="pt-2 text-[14px] leading-6 text-white/80">
-                        PRO BLOCKCHAIN
-                      </div>
-                    </div>
-
-                    <div>
-                      <div className="text-[11px] uppercase tracking-[0.18em] text-[#59c7ff]/90">
-                        YouTube
-                      </div>
-                      <div className="pt-2 text-[14px] leading-6 text-white/80">
-                        PRO BLOCKCHAIN LIVE
-                      </div>
-                    </div>
-
-                    <div>
-                      <div className="text-[11px] uppercase tracking-[0.18em] text-[#59c7ff]/90">
-                        Telegram
-                      </div>
-                      <div className="pt-2 text-[14px] leading-6 text-white/80">
-                        PRO BLOCKCHAIN
-                      </div>
-                    </div>
-
-                    <div>
-                      <div className="text-[11px] uppercase tracking-[0.18em] text-[#59c7ff]/90">
-                        Telegram
-                      </div>
-                      <div className="pt-2 text-[14px] leading-6 text-white/80">
-                        PB Channel Network
-                      </div>
-                    </div>
-
-                    <div>
-                      <div className="text-[11px] uppercase tracking-[0.18em] text-[#59c7ff]/90">
-                        Instagram
-                      </div>
-                      <div className="pt-2 text-[14px] leading-6 text-white/80">
-                        Reels
-                      </div>
-                    </div>
-
-                    <div>
-                      <div className="text-[11px] uppercase tracking-[0.18em] text-[#59c7ff]/90">
-                        YouTube
-                      </div>
-                      <div className="pt-2 text-[14px] leading-6 text-white/80">
-                        Shorts
-                      </div>
-                    </div>
-
-                    <div>
-                      <div className="text-[11px] uppercase tracking-[0.18em] text-[#59c7ff]/90">
-                        TikTok
-                      </div>
-                      <div className="pt-2 text-[14px] leading-6 text-white/80">
-                        Video
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+      <div className="rounded-[22px] border border-white/10 bg-black/20 px-5 py-5">
+        <div className="text-[11px] uppercase tracking-[0.18em] text-[#9fcbff]/90">
+          YouTube
+        </div>
+        <div className="pt-3 text-[24px] leading-[1.05] font-semibold tracking-[-0.03em] text-white">
+          YouTube Integration
+        </div>
+        <div className="pt-3 text-[14px] leading-6 text-white/58">
+          Native YouTube integration inside Pro Blockchain video content.
+        </div>
+        <div className="pt-4 text-[12px] uppercase tracking-[0.16em] text-white/42">
+          Expected Views
+        </div>
+        <div className="pt-2 text-[16px] leading-6 font-medium text-white/82">
+          25–55k YouTube views
+        </div>
+        <div className="pt-5 text-[28px] leading-none font-semibold tracking-[-0.03em] text-white">
+          $2,500
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
           </div>
         </section>
 
