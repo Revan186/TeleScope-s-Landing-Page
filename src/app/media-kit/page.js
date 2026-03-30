@@ -8,14 +8,7 @@ export default function TelescopeMediaKit() {
       audience: "155k subs",
       price: "$3,125",
     },
-    {
-      image: "/pancryptan.jpg",
-      name: "PanCryptan",
-      type: "Telegram Placement",
-      views: "9.7k avg views",
-      audience: "53k subs",
-      price: "$575",
-    },
+   
     {
       image: "/trade001k.jpg",
       name: "001k.trade",
@@ -70,7 +63,7 @@ export default function TelescopeMediaKit() {
       type: "Telegram Placement",
       views: "25k avg views",
       audience: "135k subs",
-      price: "$2,000",
+      price: "$2,500",
     },
     {
       image: "/satoshi_news.jpg",
@@ -252,9 +245,9 @@ export default function TelescopeMediaKit() {
       image: "/slezi_satoshi.jpg",
       name: "Satoshi",
       type: "YouTube Integration",
-      views: "TBD",
+      views: "60k views over a week",
       audience: "237k subs",
-      price: "$5,000",
+      price: "$6,000",
     },
     {
       image: "/pro-blockchain_media.jpg",
@@ -379,7 +372,7 @@ export default function TelescopeMediaKit() {
     "/gennady_m_telegram.jpg",
     "/gennady_m_youtube.jpg",
     "/muhtov.jpg",
-    "/pancryptan.jpg",
+ 
     "/pitupi.jpg",
     "/pro_blockchain_squad.jpg",
     "/pro_blockchain_youtube.jpg",
@@ -394,6 +387,7 @@ export default function TelescopeMediaKit() {
     "/trade_ultra.jpg",
     "/trade001k.jpg",
     "/trader_s_life.jpg",
+    "/tvs.jpg"
   ];
 
   const HERO_LOGO_POSITIONS = [
@@ -535,7 +529,7 @@ export default function TelescopeMediaKit() {
               </div>
               <div className="rounded-[24px] border border-white/10 bg-black/20 px-5 py-5 backdrop-blur-md">
                 <div className="text-[30px] font-semibold tracking-tight text-white">
-                  45
+                  40+
                 </div>
                 <div className="mt-2 text-[11px] uppercase tracking-[0.22em] text-white/45">
                   Verified Communities
