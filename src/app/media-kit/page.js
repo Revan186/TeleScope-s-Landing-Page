@@ -237,9 +237,17 @@ export default function TelescopeMediaKit() {
       image: "/pro-blockchain_media.jpg",
       name: "Pro Blockchain",
       type: "YouTube + Telegram Placement",
-      views: "70k+ YouTube views",
+      views: "70k+ views",
       audience: "232k subs",
       price: "$5,625",
+    },
+    {
+      image: "/pro-blockchain_media.jpg",
+      name: "Pro Blockchain",
+      type: "YouTube Integration",
+      views: "25–55k YouTube views",
+      audience: "232k subs",
+      price: "$2,500",
     },
     {
       image: "/slezi_satoshi.jpg",
@@ -249,14 +257,7 @@ export default function TelescopeMediaKit() {
       audience: "237k subs",
       price: "$6,000",
     },
-    {
-      image: "/pro-blockchain_media.jpg",
-      name: "Pro Blockchain",
-      type: "Full Ecosystem Campaign",
-      views: "2M+ estimated views",
-      audience: "Multi-platform",
-      price: "$31,250",
-    },
+  
   ];
 
   const fullNetworkPages = [];
