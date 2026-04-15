@@ -8,7 +8,6 @@ export default function TelescopeMediaKit() {
       audience: "155k subs",
       price: "$3,125",
     },
-
     {
       image: "/itpedia.jpg",
       name: "itpedia",
@@ -33,7 +32,6 @@ export default function TelescopeMediaKit() {
       audience: "1.24M subs",
       price: "$4,750",
     },
-
     {
       image: "/trade001k.jpg",
       name: "001k.trade",
@@ -106,7 +104,6 @@ export default function TelescopeMediaKit() {
       audience: "18k subs",
       price: "$750",
     },
-
     {
       image: "/олег_артемьев.jpg",
       name: "Олег Артемьев",
@@ -309,11 +306,6 @@ export default function TelescopeMediaKit() {
     },
   ];
 
-  const fullNetworkPages = [];
-  for (let i = 0; i < fullNetworkRows.length; i += 10) {
-    fullNetworkPages.push(fullNetworkRows.slice(i, i + 10));
-  }
-
   const topOffers = [
     {
       name: "Криптобош",
@@ -377,9 +369,9 @@ export default function TelescopeMediaKit() {
   ];
 
   const LOGOS = [
-    "/crypto_lady.jpg", // Своп с Олегом
+    "/crypto_lady.jpg",
     "/itpedia.jpg",
-    "/pro_blockchain_squad.jpg", // Своп с Шевцовым
+    "/pro_blockchain_squad.jpg",
     "/igor_link.jpg",
     "/a01k.jpg",
     "/a01ktraders.jpg",
@@ -387,706 +379,725 @@ export default function TelescopeMediaKit() {
     "/artur_ict.jpg",
     "/bogdan_gde_x.jpg",
     "/crypto_bosh.jpg",
-    "/sailer_1.jpg", // Своп с Headlines
-    "/олег_артемьев.jpg", // Своп с Lady
-    "/cryptomera.jpg",
-    "/dnevnick_capitanicka.jpg",
-    "/forex_trade_wit.jpg",
-    "/gennady_m_telegram.jpg",
-    "/gennady_m_youtube.jpg",
-    "/muhtov.jpg",
-    "/pitupi.jpg",
-    "/шевцов.jpg", // Теперь вместо Squad
-    "/pro_blockchain_youtube.jpg",
-    "/pro_crypto_trading.jpg",
-    "/pro-blockchain_media.jpg",
-    "/crypto_headlines.jpg", // Своп с Sailer
-    "/sailer_2.jpg",
-    "/satoshi_finance.jpg",
-    "/satoshi_news.jpg",
-    "/slezi_satoshi.jpg",
-    "/speculantt.jpg",
-    "/trade_ultra.jpg",
-    "/trade001k.jpg",
-    "/trader_s_life.jpg",
-    "/tvs.jpg",
+    "/sailer_1.jpg",
+    "/олег_артемьев.jpg",
   ];
 
-  const HERO_LOGO_POSITIONS = [
-    { top: "2%", left: "-2%", size: 118, rotate: -10, opacity: 0.95 },
-    { top: "6%", left: "11%", size: 92, rotate: 7, opacity: 0.9 },
-    { top: "0%", left: "23%", size: 108, rotate: -6, opacity: 0.88 },
-    { top: "8%", left: "37%", size: 96, rotate: 11, opacity: 0.92 },
-    { top: "3%", left: "50%", size: 120, rotate: -8, opacity: 0.9 },
-    { top: "9%", left: "64%", size: 100, rotate: 9, opacity: 0.86 },
-    { top: "2%", left: "78%", size: 112, rotate: -7, opacity: 0.93 },
-    { top: "7%", left: "91%", size: 98, rotate: 10, opacity: 0.88 },
-
-    { top: "28%", left: "4%", size: 104, rotate: 8, opacity: 0.84 },
-    { top: "23%", left: "18%", size: 126, rotate: -9, opacity: 0.9 },
-    { top: "31%", left: "33%", size: 94, rotate: 6, opacity: 0.86 },
-    { top: "24%", left: "45%", size: 118, rotate: -11, opacity: 0.9 },
-    { top: "30%", left: "58%", size: 96, rotate: 7, opacity: 0.84 },
-    { top: "22%", left: "71%", size: 130, rotate: -5, opacity: 0.9 },
-    { top: "29%", left: "86%", size: 102, rotate: 8, opacity: 0.86 },
-
-    { top: "52%", left: "-1%", size: 110, rotate: -7, opacity: 0.9 },
-    { top: "58%", left: "13%", size: 92, rotate: 10, opacity: 0.84 },
-    { top: "49%", left: "26%", size: 124, rotate: -9, opacity: 0.9 },
-    { top: "57%", left: "39%", size: 98, rotate: 8, opacity: 0.84 },
-    { top: "50%", left: "51%", size: 116, rotate: -6, opacity: 0.9 },
-    { top: "59%", left: "64%", size: 90, rotate: 11, opacity: 0.82 },
-    { top: "52%", left: "75%", size: 128, rotate: -10, opacity: 0.9 },
-    { top: "60%", left: "90%", size: 106, rotate: 7, opacity: 0.86 },
-
-    { top: "81%", left: "6%", size: 114, rotate: 9, opacity: 0.88 },
-    { top: "86%", left: "21%", size: 96, rotate: -8, opacity: 0.82 },
-    { top: "79%", left: "36%", size: 122, rotate: 7, opacity: 0.88 },
-    { top: "87%", left: "53%", size: 100, rotate: -11, opacity: 0.84 },
-    { top: "80%", left: "69%", size: 118, rotate: 8, opacity: 0.9 },
-    { top: "85%", left: "87%", size: 108, rotate: -7, opacity: 0.86 },
+  const massAwarenessOffers = [
+    {
+      name: "itpedia",
+      image: "/itpedia.jpg",
+      badge: "Industry Icon",
+      views: "450,000 — 1,000,000+",
+      desc: "The primary tech trendsetter in the CIS with a colossal credit of trust. His reviews shape market opinion, and integrations are perceived as personal expert recommendations, which is critical for high-risk crypto products. The perfect choice for capturing dominant market share and building long-term brand authority.",
+      price: "$8,125",
+    },
+    {
+      name: "Алексей Шевцов",
+      image: "/шевцов.jpg",
+      badge: "Primary Opinion Leader",
+      views: "700,000 — 2,000,000+",
+      desc: "The absolute leader in engagement with direct access to the most active tech and crypto community. His audience is not just viewers, but loyal followers ready for action. Integration here provides explosive growth in brand awareness and a flood of new audience that no one else in the CIS among non-crypto focused channels can provide.",
+      price: "$10,000",
+    },
+    {
+      name: "Igor Link",
+      image: "/igor_link.jpg",
+      badge: "Strategic Reach",
+      views: "300,000 — 700,000+",
+      desc: "Igor himself is a blogger on anything tech related, his videos are deep but clear and easy to understand reviews which hundreads of thousands watch and trust deeply. Had partnered with crypto exchange companies before and very successfuly, thanks to his audience being active crypto users and him showcasing on video exactly how the product works",
+      price: "$4,750",
+    },
   ];
 
   return (
-    <div className="bg-[#07090f] text-white min-h-screen ">
-      <div className="mx-auto w-[1100px] px-10 py-10 space-y-8 print:w-[1100px]">
-        {/* --- HERO SECTION --- */}
-        <section className="relative min-h-[1320px] rounded-[36px] overflow-hidden border border-white/10 bg-[#07090f] px-14 py-14 flex flex-col justify-between print:break-after-page">
+    <div className="min-h-screen bg-[#07090f] text-white">
+      <div className="mx-auto w-full max-w-[1100px] space-y-4 px-3 py-3 sm:space-y-5 sm:px-4 sm:py-4 md:space-y-8 md:px-10 md:py-10">
+        <section className="relative overflow-hidden rounded-[22px] border border-white/10 bg-[#07090f] px-4 py-5 sm:px-5 sm:py-6 md:min-h-[1320px] md:rounded-[36px] md:px-14 md:py-14 print:break-after-page">
           <div className="absolute inset-0 bg-[radial-gradient(circle_at_20%_18%,rgba(77,163,255,0.10),transparent_24%),radial-gradient(circle_at_78%_14%,rgba(138,92,246,0.10),transparent_22%),linear-gradient(180deg,#0a0d14_0%,#07090f_100%)]" />
           <div className="absolute inset-0 opacity-[0.06] bg-[linear-gradient(to_right,rgba(255,255,255,0.06)_1px,transparent_1px),linear-gradient(to_bottom,rgba(255,255,255,0.06)_1px,transparent_1px)] bg-[size:48px_48px]" />
 
-          <div className="relative z-20 flex items-center justify-between">
-            <div className="text-sm uppercase tracking-[0.38em] text-white/45">
+          <div className="relative z-20 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
+            <div className="text-[11px] uppercase tracking-[0.28em] text-white/45 sm:text-sm sm:tracking-[0.38em]">
               TeleScope Media Kit
             </div>
-            <div className="rounded-full border border-white/10 bg-white/5 px-4 py-2 text-[11px] uppercase tracking-[0.24em] text-white/55">
+            <div className="w-fit rounded-full border border-white/10 bg-white/5 px-3 py-1.5 text-[10px] uppercase tracking-[0.2em] text-white/55 sm:px-4 sm:py-2 sm:text-[11px] sm:tracking-[0.24em]">
               Q1 2026
             </div>
           </div>
 
-          <div className="relative z-20 pt-14">
+          <div className="relative z-20 pt-6 sm:pt-8 md:pt-14">
             <div className="max-w-[950px]">
-              <h1 className="text-[58px] leading-[1.02] font-semibold tracking-[-0.035em] text-white max-w-[850px]">
+              <h1 className="text-[28px] font-semibold leading-[1.04] tracking-[-0.04em] text-white sm:text-[38px] md:text-[58px] md:leading-[1.02]">
                 Access <span className="text-[#59c7ff]">10M+</span> High Net
                 Worth Crypto Trading & Tech Audience across most trusted
                 communities in the CIS Region
               </h1>
 
-              <div className="mt-10 text-[26px] leading-[1.3] italic text-white/85 tracking-[-0.01em]">
+              <div className="mt-6 text-[18px] italic leading-[1.35] tracking-[-0.01em] text-white/85 sm:mt-8 sm:text-[22px] md:mt-10 md:text-[26px]">
                 But without headaches thanks to:
               </div>
 
-              <div className="mt-8 space-y-5">
-                <div className="flex items-start gap-4">
-                  <div className="mt-[11px] h-[7px] w-[7px] shrink-0 rounded-full bg-[#59c7ff]" />
-                  <p className="text-[19px] leading-8 text-white/80">
-                    <strong className="text-white font-semibold">
-                      Single Split Payment and One Invoice:
-                    </strong>{" "}
-                    Execute a single payment and receive one invoice. No
-                    coordination on your part.
-                  </p>
-                </div>
-
-                <div className="flex items-start gap-4">
-                  <div className="mt-[11px] h-[7px] w-[7px] shrink-0 rounded-full bg-[#59c7ff]" />
-                  <p className="text-[19px] leading-8 text-white/80">
-                    <strong className="text-white font-semibold">
-                      Real-Time Analytics:
-                    </strong>{" "}
-                    Track campaign success live with anti-bot filtering and
-                    performance graphs for every channel.
-                  </p>
-                </div>
+              <div className="mt-6 space-y-4 sm:mt-7 sm:space-y-5 md:mt-8">
+                {[
+                  {
+                    title: "Single Split Payment and One Invoice:",
+                    text: "Execute a single payment and receive one invoice. No coordination on your part.",
+                  },
+                  {
+                    title: "Real-Time Analytics:",
+                    text: "Track campaign success live with anti-bot filtering and performance graphs for every channel.",
+                  },
+                ].map((item) => (
+                  <div
+                    key={item.title}
+                    className="flex items-start gap-3 sm:gap-4"
+                  >
+                    <div className="mt-[9px] h-[7px] w-[7px] shrink-0 rounded-full bg-[#59c7ff] sm:mt-[11px]" />
+                    <p className="text-[15px] leading-6 text-white/80 sm:text-[17px] sm:leading-7 md:text-[19px] md:leading-8">
+                      <strong className="font-semibold text-white">
+                        {item.title}
+                      </strong>{" "}
+                      {item.text}
+                    </p>
+                  </div>
+                ))}
               </div>
             </div>
 
-            <div className="relative mt-16 h-[560px] overflow-hidden rounded-[30px] border border-white/8 bg-white/[0.02]">
+            <div className="relative mt-8 overflow-hidden rounded-[24px] border border-white/8 bg-white/[0.02] p-3 sm:mt-10 sm:p-4 md:mt-16 md:h-[560px] md:rounded-[30px] md:p-0">
               <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(77,163,255,0.08),transparent_45%)]" />
-              <div className="absolute inset-0">
-                {LOGOS.slice(0, HERO_LOGO_POSITIONS.length).map(
-                  function (src, index) {
-                    const item = HERO_LOGO_POSITIONS[index];
-                    return (
-                      <img
-                        key={src}
-                        src={src}
-                        alt=""
-                        className="absolute rounded-[22px] object-cover border border-white/10 shadow-[0_20px_60px_rgba(0,0,0,0.45)]"
-                        style={{
-                          top: item.top,
-                          left: item.left,
-                          width: `${item.size}px`,
-                          height: `${item.size}px`,
-                          transform: `rotate(${item.rotate}deg)`,
-                          opacity: item.opacity,
-                        }}
-                      />
-                    );
-                  },
-                )}
+
+              <div className="relative z-10 grid grid-cols-3 gap-3 sm:grid-cols-4 md:hidden">
+                {LOGOS.map((src, index) => (
+                  <div
+                    key={`${src}-${index}`}
+                    className="aspect-square overflow-hidden rounded-[18px] border border-white/10 bg-black/20 shadow-[0_20px_60px_rgba(0,0,0,0.35)]"
+                  >
+                    <img
+                      src={src}
+                      alt=""
+                      className="h-full w-full object-cover"
+                    />
+                  </div>
+                ))}
               </div>
-              <div className="absolute inset-x-0 top-0 h-24 bg-gradient-to-b from-[#07090f] to-transparent" />
-              <div className="absolute inset-x-0 bottom-0 h-24 bg-gradient-to-t from-[#07090f] to-transparent" />
-              <div className="absolute inset-y-0 left-0 w-16 bg-gradient-to-r from-[#07090f] to-transparent" />
-              <div className="absolute inset-y-0 right-0 w-16 bg-gradient-to-l from-[#07090f] to-transparent" />
+
+              <div className="absolute inset-0 hidden md:block">
+                {[
+                  {
+                    top: "2%",
+                    left: "-2%",
+                    size: 118,
+                    rotate: -10,
+                    opacity: 0.95,
+                  },
+                  { top: "6%", left: "11%", size: 92, rotate: 7, opacity: 0.9 },
+                  {
+                    top: "0%",
+                    left: "23%",
+                    size: 108,
+                    rotate: -6,
+                    opacity: 0.88,
+                  },
+                  {
+                    top: "8%",
+                    left: "37%",
+                    size: 96,
+                    rotate: 11,
+                    opacity: 0.92,
+                  },
+                  {
+                    top: "3%",
+                    left: "50%",
+                    size: 120,
+                    rotate: -8,
+                    opacity: 0.9,
+                  },
+                  {
+                    top: "9%",
+                    left: "64%",
+                    size: 100,
+                    rotate: 9,
+                    opacity: 0.86,
+                  },
+                  {
+                    top: "2%",
+                    left: "78%",
+                    size: 112,
+                    rotate: -7,
+                    opacity: 0.93,
+                  },
+                  {
+                    top: "7%",
+                    left: "91%",
+                    size: 98,
+                    rotate: 10,
+                    opacity: 0.88,
+                  },
+                  {
+                    top: "28%",
+                    left: "4%",
+                    size: 104,
+                    rotate: 8,
+                    opacity: 0.84,
+                  },
+                  {
+                    top: "23%",
+                    left: "18%",
+                    size: 126,
+                    rotate: -9,
+                    opacity: 0.9,
+                  },
+                  {
+                    top: "31%",
+                    left: "33%",
+                    size: 94,
+                    rotate: 6,
+                    opacity: 0.86,
+                  },
+                  {
+                    top: "24%",
+                    left: "45%",
+                    size: 118,
+                    rotate: -11,
+                    opacity: 0.9,
+                  },
+                  {
+                    top: "30%",
+                    left: "58%",
+                    size: 96,
+                    rotate: 7,
+                    opacity: 0.84,
+                  },
+                  {
+                    top: "22%",
+                    left: "71%",
+                    size: 130,
+                    rotate: -5,
+                    opacity: 0.9,
+                  },
+                  {
+                    top: "29%",
+                    left: "86%",
+                    size: 102,
+                    rotate: 8,
+                    opacity: 0.86,
+                  },
+                  {
+                    top: "52%",
+                    left: "-1%",
+                    size: 110,
+                    rotate: -7,
+                    opacity: 0.9,
+                  },
+                  {
+                    top: "58%",
+                    left: "13%",
+                    size: 92,
+                    rotate: 10,
+                    opacity: 0.84,
+                  },
+                  {
+                    top: "49%",
+                    left: "26%",
+                    size: 124,
+                    rotate: -9,
+                    opacity: 0.9,
+                  },
+                  {
+                    top: "57%",
+                    left: "39%",
+                    size: 98,
+                    rotate: 8,
+                    opacity: 0.84,
+                  },
+                  {
+                    top: "50%",
+                    left: "51%",
+                    size: 116,
+                    rotate: -6,
+                    opacity: 0.9,
+                  },
+                  {
+                    top: "59%",
+                    left: "64%",
+                    size: 90,
+                    rotate: 11,
+                    opacity: 0.82,
+                  },
+                  {
+                    top: "52%",
+                    left: "75%",
+                    size: 128,
+                    rotate: -10,
+                    opacity: 0.9,
+                  },
+                  {
+                    top: "60%",
+                    left: "90%",
+                    size: 106,
+                    rotate: 7,
+                    opacity: 0.86,
+                  },
+                  {
+                    top: "81%",
+                    left: "6%",
+                    size: 114,
+                    rotate: 9,
+                    opacity: 0.88,
+                  },
+                  {
+                    top: "86%",
+                    left: "21%",
+                    size: 96,
+                    rotate: -8,
+                    opacity: 0.82,
+                  },
+                  {
+                    top: "79%",
+                    left: "36%",
+                    size: 122,
+                    rotate: 7,
+                    opacity: 0.88,
+                  },
+                  {
+                    top: "87%",
+                    left: "53%",
+                    size: 100,
+                    rotate: -11,
+                    opacity: 0.84,
+                  },
+                  {
+                    top: "80%",
+                    left: "69%",
+                    size: 118,
+                    rotate: 8,
+                    opacity: 0.9,
+                  },
+                  {
+                    top: "85%",
+                    left: "87%",
+                    size: 108,
+                    rotate: -7,
+                    opacity: 0.86,
+                  },
+                ].map((item, index) => (
+                  <img
+                    key={`${LOGOS[index % LOGOS.length]}-${index}`}
+                    src={LOGOS[index % LOGOS.length]}
+                    alt=""
+                    className="absolute rounded-[22px] border border-white/10 object-cover shadow-[0_20px_60px_rgba(0,0,0,0.45)]"
+                    style={{
+                      top: item.top,
+                      left: item.left,
+                      width: `${item.size}px`,
+                      height: `${item.size}px`,
+                      transform: `rotate(${item.rotate}deg)`,
+                      opacity: item.opacity,
+                    }}
+                  />
+                ))}
+              </div>
+
+              <div className="absolute inset-x-0 top-0 hidden h-24 bg-gradient-to-b from-[#07090f] to-transparent md:block" />
+              <div className="absolute inset-x-0 bottom-0 hidden h-24 bg-gradient-to-t from-[#07090f] to-transparent md:block" />
+              <div className="absolute inset-y-0 left-0 hidden w-16 bg-gradient-to-r from-[#07090f] to-transparent md:block" />
+              <div className="absolute inset-y-0 right-0 hidden w-16 bg-gradient-to-l from-[#07090f] to-transparent md:block" />
             </div>
           </div>
 
-          <div className="relative z-20 flex items-end justify-between gap-10 pt-14">
+          <div className="relative z-20 pt-8 sm:pt-10 md:flex md:items-end md:justify-between md:gap-10 md:pt-14">
             <div className="max-w-[520px]">
-              <div className="text-[13px] uppercase tracking-[0.22em] text-white/35">
+              <div className="text-[11px] uppercase tracking-[0.2em] text-white/35 sm:text-[12px] md:text-[13px] md:tracking-[0.22em]">
                 The Ultimate Gateway to CIS Digital Markets
               </div>
-              <div className="mt-4 text-[15px] leading-7 text-white/52">
+              <div className="mt-3 text-[14px] leading-6 text-white/52 sm:text-[15px] sm:leading-7 md:mt-4">
                 Built for brands looking for scalable access to high-intent
                 investor and tech-savvy audiences across the region.
               </div>
             </div>
 
-            <div className="grid grid-cols-3 gap-4 min-w-[520px]">
-              <div className="rounded-[24px] border border-white/10 bg-black/20 px-5 py-5 backdrop-blur-md text-center">
-                <div className="text-[30px] font-semibold tracking-tight text-white">
-                  10M+
+            <div className="mt-6 grid grid-cols-1 gap-3 sm:grid-cols-3 md:mt-0 md:min-w-[520px] md:gap-4">
+              {[
+                ["10M+", "Combined Reach"],
+                ["40+", "Verified Communities"],
+                ["Multi", "Channel Access"],
+              ].map(([value, label]) => (
+                <div
+                  key={label}
+                  className="rounded-[18px] border border-white/10 bg-black/20 px-4 py-4 text-center backdrop-blur-md sm:rounded-[20px] md:px-5 md:py-5"
+                >
+                  <div className="text-[24px] font-semibold tracking-tight text-white sm:text-[26px] md:text-[30px]">
+                    {value}
+                  </div>
+                  <div className="mt-2 text-[10px] uppercase tracking-[0.18em] text-white/45 sm:text-[11px] md:tracking-[0.22em]">
+                    {label}
+                  </div>
                 </div>
-                <div className="mt-2 text-[11px] uppercase tracking-[0.22em] text-white/45">
-                  Combined Reach
-                </div>
-              </div>
-              <div className="rounded-[24px] border border-white/10 bg-black/20 px-5 py-5 backdrop-blur-md text-center">
-                <div className="text-[30px] font-semibold tracking-tight text-white">
-                  40+
-                </div>
-                <div className="mt-2 text-[11px] uppercase tracking-[0.22em] text-white/45">
-                  Verified Communities
-                </div>
-              </div>
-              <div className="rounded-[24px] border border-white/10 bg-black/20 px-5 py-5 backdrop-blur-md text-center">
-                <div className="text-[30px] font-semibold tracking-tight text-white">
-                  Multi
-                </div>
-                <div className="mt-2 text-[11px] uppercase tracking-[0.22em] text-white/45">
-                  Channel Access
-                </div>
-              </div>
+              ))}
             </div>
           </div>
         </section>
 
-        <section className="min-h-[1320px] rounded-[36px] border border-white/10 bg-[linear-gradient(180deg,_#0b0f18_0%,_#07090f_100%)] px-14 py-14 print:break-after-page">
-          <div className="space-y-10">
-            <div className="flex items-end justify-between gap-8">
+        <section className="rounded-[22px] border border-white/10 bg-[linear-gradient(180deg,_#0b0f18_0%,_#07090f_100%)] px-4 py-5 sm:px-5 sm:py-6 md:min-h-[1320px] md:rounded-[36px] md:px-14 md:py-14 print:break-after-page">
+          <div className="space-y-6 sm:space-y-8 md:space-y-10">
+            <div className="flex flex-col gap-4 md:flex-row md:items-end md:justify-between md:gap-8">
               <div>
-                <div className="text-sm uppercase tracking-[0.32em] text-white/45">
+                <div className="text-[11px] uppercase tracking-[0.24em] text-white/45 sm:text-sm sm:tracking-[0.32em]">
                   Our Top Offers
                 </div>
-                <h2 className="pt-4 text-[58px] leading-[0.95] font-semibold tracking-[-0.04em] text-white">
+                <h2 className="pt-3 text-[30px] font-semibold leading-[0.98] tracking-[-0.04em] text-white sm:text-[38px] md:pt-4 md:text-[58px] md:leading-[0.95]">
                   Flagship Creators
                   <br />& Premium Campaign Assets
                 </h2>
               </div>
-              <div className="max-w-[360px] text-[15px] leading-7 text-white/55">
+              <div className="max-w-[360px] text-[14px] leading-6 text-white/55 md:text-[15px] md:leading-7">
                 A selected group of the strongest creator and media placements
                 inside the TeleScope network, built for premium launches and
                 high-intent crypto trader exposure.
               </div>
             </div>
 
-            <div className="grid grid-cols-2 gap-6">
-              {topOffers.slice(0, 2).map(function (offer) {
-                return (
-                  <div
-                    key={offer.name}
-                    className="rounded-[30px] border border-white/10 bg-white/[0.04] overflow-hidden"
-                  >
-                    <div className="relative h-[300px] overflow-hidden">
-                      <img
-                        src={offer.image}
-                        alt={offer.name}
-                        className="h-full w-full object-cover"
-                      />
-                      <div className="absolute inset-0 bg-gradient-to-t from-[#07090f] via-[#07090f]/20 to-transparent" />
-                      <div className="absolute left-6 top-6 rounded-full border border-white/10 bg-black/35 px-4 py-2 text-[11px] uppercase tracking-[0.22em] text-[#a8d1ff] backdrop-blur-md">
-                        {offer.badge}
-                      </div>
-                    </div>
-
-                    <div className="p-7 space-y-5">
-                      <div>
-                        <h3 className="text-[34px] leading-none font-semibold tracking-[-0.03em] text-white">
-                          {offer.name}
-                        </h3>
-                        <p className="pt-4 text-[18px] leading-8 text-white/76">
-                          {offer.headline}
-                        </p>
-                      </div>
-
-                      <p className="text-[15px] leading-7 text-white/58">
-                        {offer.description}
-                      </p>
-
-                      <div className="pt-1 text-[13px] leading-6 text-white/50">
-                        {offer.metrics[0]}
-                      </div>
-
-                      <div className="space-y-3 pt-1">
-                        {offer.platforms.map(function (item, index) {
-                          return (
-                            <div
-                              key={item.label}
-                              className={`flex items-center justify-between rounded-[18px] border border-white/10 px-5 py-4 ${
-                                index === 0 ? "bg-black/25" : "bg-black/20"
-                              }`}
-                            >
-                              <div className="text-[12px] uppercase tracking-[0.18em] text-white/45">
-                                {item.label}
-                              </div>
-                              <div
-                                className={`font-semibold tracking-[-0.02em] text-white ${
-                                  index === 0 ? "text-[22px]" : "text-[15px]"
-                                }`}
-                              >
-                                {item.value}
-                              </div>
-                            </div>
-                          );
-                        })}
-                      </div>
+            <div className="grid grid-cols-1 gap-4 md:grid-cols-2 md:gap-6">
+              {topOffers.map((offer) => (
+                <div
+                  key={offer.name}
+                  className="overflow-hidden rounded-[22px] border border-white/10 bg-white/[0.04] md:rounded-[30px]"
+                >
+                  <div className="relative h-[220px] overflow-hidden sm:h-[260px] md:h-[280px]">
+                    <img
+                      src={offer.image}
+                      alt={offer.name}
+                      className="h-full w-full object-cover"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-[#07090f] via-[#07090f]/20 to-transparent" />
+                    <div className="absolute left-4 top-4 rounded-full border border-white/10 bg-black/35 px-3 py-1.5 text-[10px] uppercase tracking-[0.18em] text-[#a8d1ff] backdrop-blur-md sm:left-6 sm:top-6 sm:px-4 sm:py-2 sm:text-[11px] sm:tracking-[0.22em]">
+                      {offer.badge}
                     </div>
                   </div>
-                );
-              })}
-            </div>
 
-            <div className="grid grid-cols-2 gap-6">
-              {topOffers.slice(2, 4).map(function (offer) {
-                return (
-                  <div
-                    key={offer.name}
-                    className="rounded-[30px] border border-white/10 bg-white/[0.04] overflow-hidden"
-                  >
-                    <div className="relative h-[260px] overflow-hidden">
-                      <img
-                        src={offer.image}
-                        alt={offer.name}
-                        className="h-full w-full object-cover"
-                      />
-                      <div className="absolute inset-0 bg-gradient-to-t from-[#07090f] via-[#07090f]/20 to-transparent" />
-                      <div className="absolute left-6 top-6 rounded-full border border-white/10 bg-black/35 px-4 py-2 text-[11px] uppercase tracking-[0.22em] text-[#a8d1ff] backdrop-blur-md">
-                        {offer.badge}
-                      </div>
+                  <div className="space-y-4 p-4 sm:p-5 md:space-y-5 md:p-7">
+                    <div>
+                      <h3 className="text-[28px] font-semibold leading-none tracking-[-0.03em] text-white sm:text-[30px] md:text-[34px]">
+                        {offer.name}
+                      </h3>
+                      <p className="pt-3 text-[16px] leading-7 text-white/76 sm:text-[17px] md:pt-4 md:text-[18px] md:leading-8">
+                        {offer.headline}
+                      </p>
                     </div>
 
-                    <div className="p-7 space-y-5">
-                      <div>
-                        <h3 className="text-[32px] leading-none font-semibold tracking-[-0.03em] text-white">
-                          {offer.name}
-                        </h3>
-                        <p className="pt-4 text-[17px] leading-8 text-white/76">
-                          {offer.headline}
-                        </p>
-                      </div>
+                    <p className="text-[14px] leading-6 text-white/58 md:text-[15px] md:leading-7">
+                      {offer.description}
+                    </p>
 
-                      <p className="text-[15px] leading-7 text-white/58">
-                        {offer.description}
-                      </p>
+                    <div className="text-[12px] leading-5 text-white/50 md:text-[13px] md:leading-6">
+                      {offer.metrics[0]}
+                    </div>
 
-                      <div className="pt-1 text-[13px] leading-6 text-white/50">
-                        {offer.metrics[0]}
-                      </div>
-
-                      <div className="space-y-3 pt-1">
-                        {offer.platforms.map(function (item, index) {
-                          return (
-                            <div
-                              key={item.label}
-                              className={`flex items-center justify-between rounded-[18px] border border-white/10 px-5 py-4 ${
-                                index === 0 ? "bg-black/25" : "bg-black/20"
-                              }`}
-                            >
-                              <div className="text-[12px] uppercase tracking-[0.18em] text-white/45">
-                                {item.label}
-                              </div>
-                              <div
-                                className={`font-semibold tracking-[-0.02em] text-white ${
-                                  index === 0 ? "text-[22px]" : "text-[15px]"
-                                }`}
-                              >
-                                {item.value}
-                              </div>
-                            </div>
-                          );
-                        })}
-                      </div>
+                    <div className="space-y-3 pt-1">
+                      {offer.platforms.map((item, index) => (
+                        <div
+                          key={item.label}
+                          className={`flex items-center justify-between gap-4 rounded-[16px] border border-white/10 px-4 py-3 md:rounded-[18px] md:px-5 md:py-4 ${index === 0 ? "bg-black/25" : "bg-black/20"}`}
+                        >
+                          <div className="text-[11px] uppercase tracking-[0.15em] text-white/45 md:text-[12px] md:tracking-[0.18em]">
+                            {item.label}
+                          </div>
+                          <div
+                            className={`font-semibold tracking-[-0.02em] text-white ${index === 0 ? "text-[18px] md:text-[22px]" : "text-[14px] md:text-[15px]"}`}
+                          >
+                            {item.value}
+                          </div>
+                        </div>
+                      ))}
                     </div>
                   </div>
-                );
-              })}
+                </div>
+              ))}
             </div>
           </div>
         </section>
 
-        <section className="min-h-[1320px] rounded-[36px] border border-white/10 bg-[linear-gradient(180deg,_#0b0f18_0%,_#07090f_100%)] px-14 py-14 print:break-after-page">
-          <div className="space-y-6">
-            <div className="grid grid-cols-2 gap-6">
-              {/* 001k.trade remains unchanged */}
-              <div className="rounded-[30px] border border-white/10 bg-white/[0.04] overflow-hidden">
-                <div className="relative h-[280px] overflow-hidden">
+        <section className="rounded-[22px] border border-white/10 bg-[linear-gradient(180deg,_#0b0f18_0%,_#07090f_100%)] px-4 py-5 sm:px-5 sm:py-6 md:min-h-[1320px] md:rounded-[36px] md:px-14 md:py-14 print:break-after-page">
+          <div className="space-y-5 md:space-y-6">
+            <div className="grid grid-cols-1 gap-4 md:grid-cols-2 md:gap-6">
+              <div className="overflow-hidden rounded-[22px] border border-white/10 bg-white/[0.04] md:rounded-[30px]">
+                <div className="relative h-[220px] overflow-hidden sm:h-[250px] md:h-[280px]">
                   <img
                     src="/trade001k.jpg"
                     alt="001k.trade"
                     className="h-full w-full object-cover"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-[#07090f] via-[#07090f]/20 to-transparent" />
-                  <div className="absolute left-6 top-6 rounded-full border border-white/10 bg-black/35 px-4 py-2 text-[11px] uppercase tracking-[0.22em] text-[#a8d1ff] backdrop-blur-md">
+                  <div className="absolute left-4 top-4 rounded-full border border-white/10 bg-black/35 px-3 py-1.5 text-[10px] uppercase tracking-[0.18em] text-[#a8d1ff] backdrop-blur-md sm:left-6 sm:top-6 sm:px-4 sm:py-2 sm:text-[11px] sm:tracking-[0.22em]">
                     Premium Channel
                   </div>
                 </div>
 
-                <div className="p-7 space-y-5">
+                <div className="space-y-4 p-4 sm:p-5 md:space-y-5 md:p-7">
                   <div>
-                    <h3 className="text-[36px] leading-none font-semibold tracking-[-0.03em] text-white">
+                    <h3 className="text-[28px] font-semibold leading-none tracking-[-0.03em] text-white sm:text-[30px] md:text-[36px]">
                       001k.trade
                     </h3>
-                    <p className="pt-4 text-[18px] leading-8 text-white/76">
+                    <p className="pt-3 text-[16px] leading-7 text-white/76 sm:text-[17px] md:pt-4 md:text-[18px] md:leading-8">
                       Flagship trader-focused Telegram channel with high-intent
                       audience
                     </p>
                   </div>
 
-                  <p className="text-[15px] leading-7 text-white/58">
+                  <p className="text-[14px] leading-6 text-white/58 md:text-[15px] md:leading-7">
                     A premium Telegram asset within the a01k ecosystem, built
                     around real trading activity and experienced market
                     participants. Best suited for exchanges, trading tools, and
                     infrastructure targeting active traders.
                   </p>
 
-                  <div className="pt-1 text-[13px] leading-6 text-white/50">
+                  <div className="text-[12px] leading-5 text-white/50 md:text-[13px] md:leading-6">
                     116k subscribers • 23–25k avg views • Advanced trader
                     audience
                   </div>
 
-                  <div className="space-y-3 pt-1">
-                    <div className="flex items-center justify-between rounded-[18px] border border-white/10 bg-black/25 px-5 py-4">
-                      <div className="text-[12px] uppercase tracking-[0.18em] text-white/45">
-                        Telegram Placement
-                      </div>
-                      <div className="text-[22px] font-semibold tracking-[-0.02em] text-white">
-                        $3,125
-                      </div>
+                  <div className="rounded-[16px] border border-white/10 bg-black/25 px-4 py-3 md:rounded-[18px] md:px-5 md:py-4">
+                    <div className="text-[11px] uppercase tracking-[0.15em] text-white/45 md:text-[12px] md:tracking-[0.18em]">
+                      Telegram Placement
+                    </div>
+                    <div className="pt-2 text-[18px] font-semibold tracking-[-0.02em] text-white md:text-[22px]">
+                      $3,125
                     </div>
                   </div>
                 </div>
               </div>
 
-              {/* Satoshi replaces Crypto Headlines */}
-              <div className="rounded-[30px] border border-white/10 bg-white/[0.04] overflow-hidden">
-                <div className="relative h-[280px] overflow-hidden">
+              <div className="overflow-hidden rounded-[22px] border border-white/10 bg-white/[0.04] md:rounded-[30px]">
+                <div className="relative h-[220px] overflow-hidden sm:h-[250px] md:h-[280px]">
                   <img
                     src="/slezi_satoshi.jpg"
                     alt="Сатоши"
                     className="h-full w-full object-cover"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-[#07090f] via-[#07090f]/20 to-transparent" />
-                  <div className="absolute left-6 top-6 rounded-full border border-white/10 bg-black/35 px-4 py-2 text-[11px] uppercase tracking-[0.22em] text-[#a8d1ff] backdrop-blur-md">
+                  <div className="absolute left-4 top-4 rounded-full border border-white/10 bg-black/35 px-3 py-1.5 text-[10px] uppercase tracking-[0.18em] text-[#a8d1ff] backdrop-blur-md sm:left-6 sm:top-6 sm:px-4 sm:py-2 sm:text-[11px] sm:tracking-[0.22em]">
                     Top Offer
                   </div>
                 </div>
 
-                <div className="p-7 space-y-5">
+                <div className="space-y-4 p-4 sm:p-5 md:space-y-5 md:p-7">
                   <div>
-                    <h3 className="text-[36px] leading-none font-semibold tracking-[-0.03em] text-white">
+                    <h3 className="text-[28px] font-semibold leading-none tracking-[-0.03em] text-white sm:text-[30px] md:text-[36px]">
                       Сатоши
                     </h3>
-                    <p className="pt-4 text-[18px] leading-8 text-white/76">
+                    <p className="pt-3 text-[16px] leading-7 text-white/76 sm:text-[17px] md:pt-4 md:text-[18px] md:leading-8">
                       A cornerstone media ecosystem with long-term audience
                       loyalty.
                     </p>
                   </div>
 
-                  <p className="text-[15px] leading-7 text-white/58">
+                  <p className="text-[14px] leading-6 text-white/58 md:text-[15px] md:leading-7">
                     YouTube channel is a go-to for technical deep-dives,
                     attracting high-LTV traders and seasoned investors who
                     prioritize platform stability.
                   </p>
-                  <div className="pt-1 text-[13px] leading-6 text-white/50">
+                  <div className="text-[12px] leading-5 text-white/50 md:text-[13px] md:leading-6">
                     237k YouTube • 134k Telegram • Extended ecosystem
                   </div>
 
-                  <div className="space-y-3 pt-1">
-                    <div className="flex items-center justify-between rounded-[18px] border border-white/10 bg-black/25 px-5 py-4">
-                      <div className="text-[12px] uppercase tracking-[0.18em] text-white/45">
-                        Combined Entry
-                      </div>
-                      <div className="text-[22px] font-semibold tracking-[-0.02em] text-white">
-                        $8,500
-                      </div>
+                  <div className="rounded-[16px] border border-white/10 bg-black/25 px-4 py-3 md:rounded-[18px] md:px-5 md:py-4">
+                    <div className="text-[11px] uppercase tracking-[0.15em] text-white/45 md:text-[12px] md:tracking-[0.18em]">
+                      Combined Entry
+                    </div>
+                    <div className="pt-2 text-[18px] font-semibold tracking-[-0.02em] text-white md:text-[22px]">
+                      $8,500
                     </div>
                   </div>
                 </div>
               </div>
             </div>
 
-            {/* Pro Blockchain remains unchanged */}
-            <div className="rounded-[30px] border border-[#7e6cff]/20 bg-[linear-gradient(135deg,rgba(77,163,255,0.06),rgba(138,92,246,0.10))] overflow-hidden">
-              <div className="p-8 md:p-9">
-                <div className="flex items-start justify-between gap-6">
-                  <div className="max-w-[760px]">
-                    <div className="inline-flex rounded-full border border-white/10 bg-black/35 px-4 py-2 text-[11px] uppercase tracking-[0.22em] text-[#d7c9ff] backdrop-blur-md">
-                      Strategic Partner
-                    </div>
-
-                    <h3 className="pt-6 text-[40px] leading-[0.94] font-semibold tracking-[-0.04em] text-white">
-                      Pro Blockchain
-                    </h3>
-
-                    <p className="pt-4 max-w-[720px] text-[18px] leading-8 text-white/76">
-                      The largest crypto media network in the CIS region since
-                      2017, providing massive presence across YouTube and
-                      Telegram.
-                    </p>
-
-                    <p className="pt-5 max-w-[760px] text-[15px] leading-7 text-white/58">
-                      High-frequency exposure through 25k+ views per Telegram
-                      post and 25–55k views on YouTube deep dives and podcasts.
-                      Massive reach and market dominance, trusted by Tier-1
-                      exchanges for major launches and wide-scale user
-                      acquisition.
-                    </p>
+            <div className="overflow-hidden rounded-[22px] border border-[#7e6cff]/20 bg-[linear-gradient(135deg,rgba(77,163,255,0.06),rgba(138,92,246,0.10))] md:rounded-[30px]">
+              <div className="p-4 sm:p-5 md:p-9">
+                <div className="max-w-[760px]">
+                  <div className="inline-flex rounded-full border border-white/10 bg-black/35 px-3 py-1.5 text-[10px] uppercase tracking-[0.18em] text-[#d7c9ff] backdrop-blur-md sm:px-4 sm:py-2 sm:text-[11px] sm:tracking-[0.22em]">
+                    Strategic Partner
                   </div>
+
+                  <h3 className="pt-4 text-[30px] font-semibold leading-[0.98] tracking-[-0.04em] text-white sm:text-[34px] md:pt-6 md:text-[40px] md:leading-[0.94]">
+                    Pro Blockchain
+                  </h3>
+
+                  <p className="pt-3 text-[16px] leading-7 text-white/76 sm:text-[17px] md:pt-4 md:text-[18px] md:leading-8">
+                    The largest crypto media network in the CIS region since
+                    2017, providing massive presence across YouTube and
+                    Telegram.
+                  </p>
+
+                  <p className="pt-4 text-[14px] leading-6 text-white/58 md:pt-5 md:text-[15px] md:leading-7">
+                    High-frequency exposure through 25k+ views per Telegram post
+                    and 25–55k views on YouTube deep dives and podcasts. Massive
+                    reach and market dominance, trusted by Tier-1 exchanges for
+                    major launches and wide-scale user acquisition.
+                  </p>
                 </div>
 
-                <div className="mt-7 text-[13px] leading-6 text-white/50">
+                <div className="mt-5 text-[12px] leading-5 text-white/50 md:mt-7 md:text-[13px] md:leading-6">
                   190k Pro Blockchain Telegram • 56.7k Pro Crypto Trading
                   Telegram • 232k YouTube • 25k+ Telegram post views • 25–55k
                   YouTube views
                 </div>
 
-                <div className="mt-8 grid grid-cols-2 gap-4">
-                  <div className="rounded-[22px] border border-white/10 bg-black/20 px-5 py-5">
-                    <div className="text-[11px] uppercase tracking-[0.18em] text-[#9fcbff]/90">
-                      Telegram Channel
+                <div className="mt-5 grid grid-cols-1 gap-3 sm:grid-cols-2 md:mt-8 md:gap-4">
+                  {[
+                    {
+                      type: "Telegram Channel",
+                      title: "Pro Blockchain",
+                      desc: "Premium Telegram placement inside the flagship Pro Blockchain channel.",
+                      metricLabel: "Avg Views",
+                      metric: "25k avg views over first 2 days",
+                      price: "$2,000",
+                    },
+                    {
+                      type: "Telegram Channel",
+                      title: "Pro Crypto Trading",
+                      desc: "Additional Telegram exposure through the Pro Crypto Trading audience.",
+                      metricLabel: "Avg Views",
+                      metric: "10.3k avg views",
+                      price: "$1,500",
+                    },
+                    {
+                      type: "Bundle",
+                      title: "YouTube Review + Pro Blockchain Telegram",
+                      desc: "Full YouTube review combined with a Pro Blockchain Telegram placement.",
+                      metricLabel: "Views",
+                      metric: "25–55k YouTube + 25k Telegram (first 2 days)",
+                      price: "$5,625",
+                    },
+                    {
+                      type: "YouTube",
+                      title: "YouTube Integration",
+                      desc: "Native YouTube integration inside Pro Blockchain video content.",
+                      metricLabel: "Expected Views",
+                      metric: "25–55k YouTube views",
+                      price: "$2,500",
+                    },
+                  ].map((item) => (
+                    <div
+                      key={item.title}
+                      className="rounded-[18px] border border-white/10 bg-black/20 px-4 py-4 md:rounded-[22px] md:px-5 md:py-5"
+                    >
+                      <div className="text-[10px] uppercase tracking-[0.16em] text-[#9fcbff]/90 md:text-[11px] md:tracking-[0.18em]">
+                        {item.type}
+                      </div>
+                      <div className="pt-2 text-[22px] font-semibold leading-[1.05] tracking-[-0.03em] text-white md:pt-3 md:text-[24px]">
+                        {item.title}
+                      </div>
+                      <div className="pt-3 text-[14px] leading-6 text-white/58">
+                        {item.desc}
+                      </div>
+                      <div className="pt-4 text-[11px] uppercase tracking-[0.14em] text-white/42 md:text-[12px] md:tracking-[0.16em]">
+                        {item.metricLabel}
+                      </div>
+                      <div className="pt-2 text-[15px] leading-6 font-medium text-white/82 md:text-[16px]">
+                        {item.metric}
+                      </div>
+                      <div className="pt-4 text-[24px] font-semibold leading-none tracking-[-0.03em] text-white md:pt-5 md:text-[28px]">
+                        {item.price}
+                      </div>
                     </div>
-                    <div className="pt-3 text-[24px] leading-[1.05] font-semibold tracking-[-0.03em] text-white">
-                      Pro Blockchain
-                    </div>
-                    <div className="pt-3 text-[14px] leading-6 text-white/58">
-                      Premium Telegram placement inside the flagship Pro
-                      Blockchain channel.
-                    </div>
-                    <div className="pt-4 text-[12px] uppercase tracking-[0.16em] text-white/42">
-                      Avg Views
-                    </div>
-                    <div className="pt-2 text-[16px] leading-6 font-medium text-white/82">
-                      25k avg views over first 2 days
-                    </div>
-                    <div className="pt-5 text-[28px] leading-none font-semibold tracking-[-0.03em] text-white">
-                      $2,000
-                    </div>
-                  </div>
-
-                  <div className="rounded-[22px] border border-white/10 bg-black/20 px-5 py-5">
-                    <div className="text-[11px] uppercase tracking-[0.18em] text-[#9fcbff]/90">
-                      Telegram Channel
-                    </div>
-                    <div className="pt-3 text-[24px] leading-[1.05] font-semibold tracking-[-0.03em] text-white">
-                      Pro Crypto Trading
-                    </div>
-                    <div className="pt-3 text-[14px] leading-6 text-white/58">
-                      Additional Telegram exposure through the Pro Crypto
-                      Trading audience.
-                    </div>
-                    <div className="pt-4 text-[12px] uppercase tracking-[0.16em] text-white/42">
-                      Avg Views
-                    </div>
-                    <div className="pt-2 text-[16px] leading-6 font-medium text-white/82">
-                      10.3k avg views
-                    </div>
-                    <div className="pt-5 text-[28px] leading-none font-semibold tracking-[-0.03em] text-white">
-                      $1,500
-                    </div>
-                  </div>
-
-                  <div className="rounded-[22px] border border-white/10 bg-black/20 px-5 py-5">
-                    <div className="text-[11px] uppercase tracking-[0.18em] text-[#9fcbff]/90">
-                      Bundle
-                    </div>
-                    <div className="pt-3 text-[24px] leading-[1.05] font-semibold tracking-[-0.03em] text-white">
-                      YouTube Review + Pro Blockchain Telegram
-                    </div>
-                    <div className="pt-3 text-[14px] leading-6 text-white/58">
-                      Full YouTube review combined with a Pro Blockchain
-                      Telegram placement.
-                    </div>
-                    <div className="pt-4 text-[12px] uppercase tracking-[0.16em] text-white/42">
-                      Views
-                    </div>
-                    <div className="pt-2 text-[16px] leading-6 font-medium text-white/82">
-                      25–55k YouTube + 25k Telegram (first 2 days)
-                    </div>
-                    <div className="pt-5 text-[28px] leading-none font-semibold tracking-[-0.03em] text-white">
-                      $5,625
-                    </div>
-                  </div>
-
-                  <div className="rounded-[22px] border border-white/10 bg-black/20 px-5 py-5">
-                    <div className="text-[11px] uppercase tracking-[0.18em] text-[#9fcbff]/90">
-                      YouTube
-                    </div>
-                    <div className="pt-3 text-[24px] leading-[1.05] font-semibold tracking-[-0.03em] text-white">
-                      YouTube Integration
-                    </div>
-                    <div className="pt-3 text-[14px] leading-6 text-white/58">
-                      Native YouTube integration inside Pro Blockchain video
-                      content.
-                    </div>
-                    <div className="pt-4 text-[12px] uppercase tracking-[0.16em] text-white/42">
-                      Expected Views
-                    </div>
-                    <div className="pt-2 text-[16px] leading-6 font-medium text-white/82">
-                      25–55k YouTube views
-                    </div>
-                    <div className="pt-5 text-[28px] leading-none font-semibold tracking-[-0.03em] text-white">
-                      $2,500
-                    </div>
-                  </div>
+                  ))}
                 </div>
               </div>
             </div>
           </div>
         </section>
 
-        {/* --- MASS PRODUCTION & BRAND AWARENESS --- */}
-        <section className="relative min-h-[1320px] rounded-[48px] border border-white/10 bg-[#080a12] overflow-hidden px-12 py-20 print:break-after-page">
-          <div className="absolute top-0 left-0 w-full h-[500px] bg-[radial-gradient(circle_at_30%_0%,rgba(126,108,255,0.1),transparent_70%)]" />
+        <section className="relative overflow-hidden rounded-[22px] border border-white/10 bg-[#080a12] px-4 py-5 sm:px-5 sm:py-6 md:min-h-[1320px] md:rounded-[48px] md:px-12 md:py-20 print:break-after-page">
+          <div className="absolute left-0 top-0 h-[500px] w-full bg-[radial-gradient(circle_at_30%_0%,rgba(126,108,255,0.1),transparent_70%)]" />
 
-          <div className="relative z-10 space-y-12">
-            <div className="flex items-end justify-between border-b border-white/5 pb-12">
+          <div className="relative z-10 space-y-7 sm:space-y-8 md:space-y-12">
+            <div className="border-b border-white/5 pb-6 md:flex md:items-end md:justify-between md:pb-12">
               <div className="max-w-[700px]">
-                <h2 className="text-[68px] leading-[0.9] font-bold tracking-[-0.05em] text-white">
+                <h2 className="text-[32px] font-bold leading-[0.95] tracking-[-0.05em] text-white sm:text-[42px] md:text-[68px] md:leading-[0.9]">
                   Mass Production <br />
                   <span className="text-white/30">& Brand Awareness</span>
                 </h2>
               </div>
             </div>
 
-            {/* --- WHY THEM SECTION (Same as Hero) --- */}
             <div>
-              <div className="text-[26px] leading-[1.3] italic text-white/85 tracking-[-0.01em]">
+              <div className="text-[18px] italic leading-[1.35] tracking-[-0.01em] text-white/85 sm:text-[22px] md:text-[26px]">
                 Why them:
               </div>
 
-              <div className="mt-8 space-y-5">
-                <div className="flex items-start gap-4">
-                  <div className="mt-[11px] h-[7px] w-[7px] shrink-0 rounded-full bg-[#59c7ff]" />
-                  <p className="text-[19px] leading-8 text-white/80">
-                    Each one has promoted crypto projects before, advertisers
-                    came back for more integrations as they did extremely well.
-                  </p>
-                </div>
-                <div className="flex items-start gap-4">
-                  <div className="mt-[11px] h-[7px] w-[7px] shrink-0 rounded-full bg-[#59c7ff]" />
-                  <p className="text-[19px] leading-8 text-white/80">
-                    They have authority, engagement and trust of their audiences
-                    on one of a kind level, making their integrations genuine
-                    recommendation which their community listens and follows
-                    passionately.
-                  </p>
-                </div>
-                <div className="flex items-start gap-4">
-                  <div className="mt-[11px] h-[7px] w-[7px] shrink-0 rounded-full bg-[#59c7ff]" />
-                  <p className="text-[19px] leading-8 text-white/80">
-                    Audiences themselves are tech and crypto people, most use
-                    crypto wallets, exchanges etc. and are advanced, capable
-                    individuals.
-                  </p>
-                </div>
+              <div className="mt-6 space-y-4 md:mt-8 md:space-y-5">
+                {[
+                  "Each one has promoted crypto projects before, advertisers came back for more integrations as they did extremely well.",
+                  "They have authority, engagement and trust of their audiences on one of a kind level, making their integrations genuine recommendation which their community listens and follows passionately.",
+                  "Audiences themselves are tech and crypto people, most use crypto wallets, exchanges etc. and are advanced, capable individuals.",
+                ].map((text) => (
+                  <div key={text} className="flex items-start gap-3 sm:gap-4">
+                    <div className="mt-[9px] h-[7px] w-[7px] shrink-0 rounded-full bg-[#59c7ff] sm:mt-[11px]" />
+                    <p className="text-[15px] leading-6 text-white/80 sm:text-[17px] sm:leading-7 md:text-[19px] md:leading-8">
+                      {text}
+                    </p>
+                  </div>
+                ))}
               </div>
             </div>
 
-            <div className="space-y-6 pt-6">
-              {[
-                {
-                  name: "itpedia",
-                  image: "/itpedia.jpg",
-                  badge: "Industry Icon",
-                  views: "450,000 — 1,000,000+",
-                  desc: "The primary tech trendsetter in the CIS with a colossal credit of trust. His reviews shape market opinion, and integrations are perceived as personal expert recommendations, which is critical for high-risk crypto products. The perfect choice for capturing dominant market share and building long-term brand authority.",
-                  price: "$8,125",
-                },
-                {
-                  name: "Алексей Шевцов",
-                  image: "/шевцов.jpg",
-                  badge: "Primary Opinion Leader",
-                  views: "700,000 — 2,000,000+",
-                  desc: "The absolute leader in engagement with direct access to the most active tech and crypto community. His audience is not just viewers, but loyal followers ready for action. Integration here provides explosive growth in brand awareness and a flood of new audience that no one else in the CIS among non-crypto focused channels can provide.",
-                  price: "$10,000",
-                },
-                {
-                  name: "Igor Link",
-                  image: "/igor_link.jpg",
-                  badge: "Strategic Reach",
-                  views: "300,000 — 700,000+",
-                  desc: "Igor himself is a blogger on anything tech related, his videos are deep but clear and easy to understand reviews which hundreads of thousands watch and trust deeply. Had partnered with crypto exchange companies before and very successfuly, thanks to his audience being active crypto users and him showcasing on video exactly how the product works",
-                  price: "$4,750",
-                },
-              ].map((item) => (
+            <div className="space-y-4 pt-2 md:space-y-6 md:pt-6">
+              {massAwarenessOffers.map((item) => (
                 <div
                   key={item.name}
-                  className="group relative flex min-h-[360px] h-auto rounded-[36px] border border-white/10 bg-white/[0.03] transition-all duration-500 hover:border-white/20 hover:bg-white/[0.05] overflow-hidden"
+                  className="group relative overflow-hidden rounded-[22px] border border-white/10 bg-white/[0.03] transition-all duration-500 hover:border-white/20 hover:bg-white/[0.05] md:flex md:min-h-[360px] md:rounded-[36px]"
                 >
-                  {/* Image Part - Height will match content auto-height */}
-                  <div className="w-[450px] relative overflow-hidden shrink-0">
+                  <div className="relative h-[220px] w-full shrink-0 overflow-hidden sm:h-[260px] md:h-auto md:w-[450px]">
                     <img
                       src={item.image}
                       className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
                       alt={item.name}
                     />
-                    <div className="absolute inset-0 bg-gradient-to-r from-transparent to-[#080a12]" />
+                    <div className="absolute inset-0 bg-gradient-to-t from-[#080a12] via-transparent to-transparent md:bg-gradient-to-r" />
                   </div>
 
-                  {/* Content Part - Flex justify-between keeps bottom row at the end */}
-                  <div className="flex-grow pt-7 px-10 pb-8 flex flex-col justify-between">
-                    <div className="flex justify-between items-start">
+                  <div className="flex flex-1 flex-col justify-between p-4 sm:p-5 md:px-10 md:pb-8 md:pt-7">
+                    <div className="flex flex-col gap-4 md:flex-row md:items-start md:justify-between">
                       <div>
-                        <div className="text-[10px] uppercase tracking-[0.2em] text-[#7e6cff] font-semibold mb-4">
+                        <div className="mb-3 text-[10px] font-semibold uppercase tracking-[0.2em] text-[#7e6cff] md:mb-4">
                           {item.badge}
                         </div>
-                        <h3 className="text-[42px] font-bold tracking-tighter text-white leading-none">
+                        <h3 className="text-[30px] font-bold leading-none tracking-tighter text-white sm:text-[36px] md:text-[42px]">
                           {item.name}
                         </h3>
-                        <p className="pt-6 text-[17px] leading-[1.65] text-white/50 max-w-[580px]">
+                        <p className="max-w-[580px] pt-4 text-[15px] leading-6 text-white/50 sm:text-[16px] sm:leading-7 md:pt-6 md:text-[17px] md:leading-[1.65]">
                           {item.desc}
                         </p>
                       </div>
-                      <div className="text-right">
-                        <div className="text-[10px] uppercase tracking-widest text-white/30 mb-1">
+                      <div className="md:text-right">
+                        <div className="mb-1 text-[10px] uppercase tracking-[0.18em] text-white/30 md:tracking-widest">
                           Standard Integration
                         </div>
-                        <div className="text-[36px] font-bold tracking-tighter text-white leading-none">
+                        <div className="text-[28px] font-bold leading-none tracking-tighter text-white sm:text-[32px] md:text-[36px]">
                           {item.price}
                         </div>
                       </div>
                     </div>
 
-                    <div className="flex items-center justify-between border-t border-white/5 pt-6 mt-8">
-                      <div className="flex gap-10">
-                        <div className="space-y-1">
-                          <div className="text-[10px] uppercase tracking-widest text-white/30">
-                            Target Views
-                          </div>
-                          <div className="text-[18px] font-semibold text-white/90">
-                            {item.views}
-                          </div>
+                    <div className="mt-6 flex flex-col gap-4 border-t border-white/5 pt-5 md:mt-8 md:flex-row md:items-center md:justify-between md:pt-6">
+                      <div className="space-y-1">
+                        <div className="text-[10px] uppercase tracking-[0.18em] text-white/30 md:tracking-widest">
+                          Target Views
                         </div>
-                        <div className="max-w-[340px] space-y-1">
-                          <div className="text-[10px] uppercase tracking-widest text-[#a8d1ff]">
-                            Strategic Advantage
-                          </div>
-                          <div className="text-[12px] leading-5 text-white/40">
-                            Placement can be negotiated for specific
-                            high-traffic video topics to maximize conversion.
-                          </div>
+                        <div className="text-[17px] font-semibold text-white/90 md:text-[18px]">
+                          {item.views}
+                        </div>
+                      </div>
+                      <div className="max-w-[340px] space-y-1">
+                        <div className="text-[10px] uppercase tracking-[0.18em] text-[#a8d1ff] md:tracking-widest">
+                          Strategic Advantage
+                        </div>
+                        <div className="text-[12px] leading-5 text-white/40">
+                          Placement can be negotiated for specific high-traffic
+                          video topics to maximize conversion.
                         </div>
                       </div>
                     </div>
@@ -1097,102 +1108,94 @@ export default function TelescopeMediaKit() {
           </div>
         </section>
 
-        {fullNetworkPages.map(function (pageRows, pageIndex) {
-          return (
-            <section
-              key={`full-network-page-${pageIndex}`}
-              className="min-h-[1320px] rounded-[32px] border border-white/10 bg-[linear-gradient(180deg,_#0b0f18_0%,_#07090f_100%)] p-14 print:break-after-page"
-            >
-              <div className="space-y-8">
-                <div className="flex items-end justify-between gap-8">
-                  <div>
-                    <div className="text-sm uppercase tracking-[0.3em] text-white/55">
-                      {pageIndex === 0
-                        ? "Full Network"
-                        : "Full Network Continued"}
-                    </div>
-                    <h2 className="pt-3 text-[56px] leading-[0.94] font-semibold tracking-[-0.04em] text-white">
-                      {pageIndex === 0 ? (
-                        <>
-                          Complete Media
-                          <br />
-                          Inventory
-                        </>
-                      ) : (
-                        <>
-                          Network
-                          <br />
-                          Directory
-                        </>
-                      )}
-                    </h2>
-                  </div>
-
-                  <div className="max-w-[420px] text-[15px] leading-7 text-white/55">
-                    {pageIndex === 0
-                      ? "A complete directory of available placements, creator integrations, and bundled campaign assets across the TeleScope network."
-                      : "Continued inventory of available services across Telegram, YouTube, and bundled campaign formats."}
-                  </div>
+        <section className="rounded-[22px] border border-white/10 bg-[linear-gradient(180deg,_#0b0f18_0%,_#07090f_100%)] px-4 py-5 sm:px-5 sm:py-6 md:rounded-[32px] md:p-14 print:break-after-page">
+          <div className="space-y-6 md:space-y-8">
+            <div className="flex flex-col gap-4 md:flex-row md:items-end md:justify-between md:gap-8">
+              <div>
+                <div className="text-[11px] uppercase tracking-[0.24em] text-white/55 sm:text-sm sm:tracking-[0.3em]">
+                  Full Network
                 </div>
-
-                <div className="space-y-4 pt-4">
-                  {pageRows.map(function (item) {
-                    return (
-                      <div
-                        key={item.name + item.type + item.price}
-                        className="grid grid-cols-[88px_1.45fr_0.9fr_0.9fr_0.75fr] items-center gap-4 rounded-[24px] border border-white/10 bg-white/[0.04] px-5 py-5"
-                      >
-                        <div className="h-[72px] w-[72px] overflow-hidden rounded-[18px] border border-white/10 bg-black/20">
-                          <img
-                            src={item.image}
-                            alt={item.name}
-                            className="h-full w-full object-cover"
-                          />
-                        </div>
-
-                        <div className="min-w-0">
-                          <div className="text-[22px] leading-none font-semibold tracking-[-0.03em] text-white">
-                            {item.name}
-                          </div>
-                          <div className="pt-2 text-[13px] uppercase tracking-[0.18em] text-white/42">
-                            {item.type}
-                          </div>
-                        </div>
-
-                        <div className="rounded-[18px] border border-white/10 bg-black/20 px-4 py-4">
-                          <div className="text-[11px] uppercase tracking-[0.18em] text-white/42">
-                            Avg Views
-                          </div>
-                          <div className="pt-2 text-[15px] leading-6 font-medium text-white/80">
-                            {item.views}
-                          </div>
-                        </div>
-
-                        <div className="rounded-[18px] border border-white/10 bg-black/20 px-4 py-4">
-                          <div className="text-[11px] uppercase tracking-[0.18em] text-white/42">
-                            Audience
-                          </div>
-                          <div className="pt-2 text-[15px] leading-6 font-medium text-white/80">
-                            {item.audience}
-                          </div>
-                        </div>
-
-                        <div className="rounded-[18px] border border-white/10 bg-[linear-gradient(180deg,rgba(77,163,255,0.12),rgba(255,255,255,0.03))] px-4 py-4 text-right">
-                          <div className="text-[11px] uppercase tracking-[0.18em] text-white/42">
-                            Price
-                          </div>
-                          <div className="pt-2 text-[22px] leading-none font-semibold tracking-[-0.03em] text-white">
-                            {item.price}
-                          </div>
-                        </div>
-                      </div>
-                    );
-                  })}
-                </div>
+                <h2 className="pt-3 text-[30px] font-semibold leading-[0.98] tracking-[-0.04em] text-white sm:text-[38px] md:text-[56px] md:leading-[0.94]">
+                  Complete Media
+                  <br />
+                  Inventory
+                </h2>
               </div>
-            </section>
-          );
-        })}
+
+              <div className="max-w-[420px] text-[14px] leading-6 text-white/55 md:text-[15px] md:leading-7">
+                A complete directory of available placements, creator
+                integrations, and bundled campaign assets across the TeleScope
+                network.
+              </div>
+            </div>
+
+            <div className="space-y-3 pt-1 md:space-y-4 md:pt-4">
+              {fullNetworkRows.map((item) => (
+                <div
+                  key={item.name + item.type + item.price}
+                  className="rounded-[18px] border border-white/10 bg-white/[0.04] p-3 sm:p-4 md:grid md:grid-cols-[88px_1.45fr_0.9fr_0.9fr_0.75fr] md:gap-4 md:rounded-[24px] md:p-5"
+                >
+                  <div className="flex items-start gap-3 md:block">
+                    <div className="h-[64px] w-[64px] shrink-0 overflow-hidden rounded-[16px] border border-white/10 bg-black/20 md:h-[72px] md:w-[72px] md:rounded-[18px]">
+                      <img
+                        src={item.image}
+                        alt={item.name}
+                        className="h-full w-full object-cover"
+                      />
+                    </div>
+
+                    <div className="min-w-0 md:hidden">
+                      <div className="text-[18px] font-semibold leading-tight tracking-[-0.03em] text-white">
+                        {item.name}
+                      </div>
+                      <div className="pt-1 text-[11px] uppercase tracking-[0.14em] text-white/42">
+                        {item.type}
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="hidden min-w-0 md:block">
+                    <div className="text-[22px] leading-none font-semibold tracking-[-0.03em] text-white">
+                      {item.name}
+                    </div>
+                    <div className="pt-2 text-[13px] uppercase tracking-[0.18em] text-white/42">
+                      {item.type}
+                    </div>
+                  </div>
+
+                  <div className="mt-3 grid grid-cols-1 gap-2 sm:grid-cols-3 md:mt-0 md:contents">
+                    <div className="rounded-[14px] border border-white/10 bg-black/20 px-3 py-3 md:rounded-[18px] md:px-4 md:py-4">
+                      <div className="text-[10px] uppercase tracking-[0.14em] text-white/42 md:text-[11px] md:tracking-[0.18em]">
+                        Avg Views
+                      </div>
+                      <div className="pt-1.5 text-[14px] leading-5 font-medium text-white/80 md:pt-2 md:text-[15px] md:leading-6">
+                        {item.views}
+                      </div>
+                    </div>
+
+                    <div className="rounded-[14px] border border-white/10 bg-black/20 px-3 py-3 md:rounded-[18px] md:px-4 md:py-4">
+                      <div className="text-[10px] uppercase tracking-[0.14em] text-white/42 md:text-[11px] md:tracking-[0.18em]">
+                        Audience
+                      </div>
+                      <div className="pt-1.5 text-[14px] leading-5 font-medium text-white/80 md:pt-2 md:text-[15px] md:leading-6">
+                        {item.audience}
+                      </div>
+                    </div>
+
+                    <div className="rounded-[14px] border border-white/10 bg-[linear-gradient(180deg,rgba(77,163,255,0.12),rgba(255,255,255,0.03))] px-3 py-3 sm:text-right md:rounded-[18px] md:px-4 md:py-4 md:text-right">
+                      <div className="text-[10px] uppercase tracking-[0.14em] text-white/42 md:text-[11px] md:tracking-[0.18em]">
+                        Price
+                      </div>
+                      <div className="pt-1.5 text-[18px] font-semibold leading-none tracking-[-0.03em] text-white md:pt-2 md:text-[22px]">
+                        {item.price}
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
       </div>
     </div>
   );
