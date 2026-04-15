@@ -76,9 +76,9 @@ export default function TelescopeMediaKit() {
       image: "/pitupi.jpg",
       name: "Питупи",
       type: "Telegram Placement",
-      views: "12k avg views",
+      views: "23k+ avg views (ads stay there)",
       audience: "100k subs",
-      price: "$1,500–$3,000",
+      price: "$1,500–$2,500",
     },
     {
       image: "/slezi_satoshi.jpg",
@@ -234,6 +234,14 @@ export default function TelescopeMediaKit() {
       price: "$875",
     },
     {
+      image: "/rostik.jpg",
+      name: "Канал Ростiка",
+      type: "Telegram Placement",
+      views: "45k+ avg views",
+      audience: "123k subs",
+      price: "$6,250",
+    },
+    {
       image: "/altador.jpg",
       name: "Альтадор",
       type: "Telegram Placement",
@@ -343,17 +351,17 @@ export default function TelescopeMediaKit() {
     {
       name: "Криптобош",
       image: "/crypto_bosh.jpg",
-      badge: "Flagship Creator",
+      badge: "Flagship Media",
       headline:
-        "One of the highest engagement creators in the CIS space, focused on actionable trading content and platform deep-dives.",
+        "The definitive voice of high-level crypto discourse and the author of the most influential podcast in the CIS region.",
       description:
-        "YouTube channel videos get 140k+ views; the entire audience consists of crypto traders, with massive trust and conversion.",
+        "CryptoBosh has evolved from a channel into a premier media platform. His 'deep-dive to the molecule' approach to technical and fundamental analysis captures an audience that bridges the gap between retail trading and high-stakes entrepreneurship. By hosting industry titans like Oleg Torbosov and Alexander Gerchik, he has cultivated a community that is educated, well-capitalized, and deeply loyal to his strategic insights.",
       platforms: [
         { label: "YouTube Review", value: "$18,750" },
         { label: "Telegram Placement", value: "$3,125" },
         { label: "Instagram Bonus", value: "230k audience" },
       ],
-      metrics: ["382k YouTube • 155k Telegram • Verified channel"],
+      metrics: ["382k YouTube • 155k Telegram • Premium Networking"],
     },
     {
       name: "Олег Артемьев",
@@ -372,17 +380,17 @@ export default function TelescopeMediaKit() {
     {
       name: "Gennady M",
       image: "/gennady_m_youtube.jpg",
-      badge: "Flagship Creator",
+      badge: "Institutional Authority",
       headline:
-        "A premier media resource for long-term investors and high-net-worth (HNW) crypto holders.",
+        "The analytical gold standard for HNW capital and institutional-grade investors.",
       description:
-        "Focused on market cycles, global economics, and risk management, attracting a mature audience with above-average deposits.",
+        "Gennady brings executive-level rigor (former VP at UralSib, GR at Gazprom Neft) to the chaos of crypto. He ignores market noise to focus on global liquidity cycles and systemic risk management. His audience is the 'thinking class' of the CIS—mature investors who prioritize logic over hype. An endorsement here is a signal to the most sophisticated capital in the region.",
       platforms: [
         { label: "YouTube Integration", value: "$3,750" },
         { label: "Full Sponsored Video", value: "$8,750" },
         { label: "Telegram Placement", value: "$875" },
       ],
-      metrics: ["227k YouTube • 64k Telegram • ~80k avg views"],
+      metrics: ["227k YouTube • 64k Telegram • Professional Audit"],
     },
     {
       name: "Sailer",
@@ -391,7 +399,7 @@ export default function TelescopeMediaKit() {
       headline:
         "Award-winning trusted cryptocurrency influencer with a loyal fanbase",
       description:
-        "The best deal in the network for the combination of very affordable price and result.",
+        "Regularly takes best crypto influencer awards and is universally considered the opinion leader. His audience lives and breathes technical analysis and discipline. What makes Sailer unique is the ability to make his viewers actively use new tools and try new projects, seeking optimal solutions to their problems and to improve.",
       platforms: [
         { label: "Dedicated YouTube Review", value: "$3,125+" },
         { label: "YouTube Integration", value: "$1,625" },
@@ -402,7 +410,7 @@ export default function TelescopeMediaKit() {
   ];
 
   const LOGOS = [
-    "/crypto_lady.jpg",
+    "/rostik.jpg",
     "/itpedia.jpg",
     "/sobolev_youtube.webp",
     "/igor_link.jpg",
@@ -428,7 +436,7 @@ export default function TelescopeMediaKit() {
     "/crypto_headlines.jpg",
     "/sailer_2.jpg",
     "/satoshi_finance.jpg",
-    "/satoshi_news.jpg",
+    "/crypto_lady.jpg",
     "/slezi_satoshi.jpg",
     "/speculantt.jpg",
     "/trade_ultra.jpg",
@@ -821,11 +829,6 @@ export default function TelescopeMediaKit() {
                   <br />& Premium Campaign Assets
                 </h2>
               </div>
-              <div className="max-w-[360px] text-[14px] leading-6 text-white/55 md:text-[15px] md:leading-7">
-                A selected group of the strongest creator and media placements
-                inside the TeleScope network, built for premium launches and
-                high-intent crypto trader exposure.
-              </div>
             </div>
 
             <div className="grid grid-cols-1 gap-4 md:grid-cols-2 md:gap-6">
@@ -910,16 +913,22 @@ export default function TelescopeMediaKit() {
                       001k.trade
                     </h3>
                     <p className="pt-3 text-[16px] leading-7 text-white/76 sm:text-[17px] md:pt-4 md:text-[18px] md:leading-8">
-                      Flagship trader-focused Telegram channel with high-intent
-                      audience
+                      The primary liquidity gateway and strategic intelligence
+                      hub for the CIS crypto elite.
                     </p>
                   </div>
 
                   <p className="text-[14px] leading-6 text-white/58 md:text-[15px] md:leading-7">
-                    A premium Telegram asset within the a01k ecosystem, built
-                    around real trading activity and experienced market
-                    participants. Best suited for exchanges, trading tools, and
-                    infrastructure targeting active traders.
+                    The primary liquidity gateway and strategic intelligence hub
+                    for the CIS crypto elite.", description: "001k.trade is the
+                    media flagship of the A01K ecosystem—a multi-national
+                    financial powerhouse operating exchange services in 47
+                    countries. Boasting an exceptional 25% ERR, this channel
+                    serves as the primary filter for high-intent traders and
+                    professional capital. An endorsement from the A01K team
+                    provides more than just reach; it grants projects immediate
+                    credibility within an elite network of funds, market makers,
+                    and institutional-grade operators.
                   </p>
 
                   <div className="text-[12px] leading-5 text-white/50 md:text-[13px] md:leading-6">
@@ -957,26 +966,42 @@ export default function TelescopeMediaKit() {
                       Сатоши
                     </h3>
                     <p className="pt-3 text-[16px] leading-7 text-white/76 sm:text-[17px] md:pt-4 md:text-[18px] md:leading-8">
-                      A cornerstone media ecosystem with long-term audience
-                      loyalty.
+                      The cryptographic standard of CIS market analysis and the
+                      most respected voice for fundamental sanity.
                     </p>
                   </div>
 
                   <p className="text-[14px] leading-6 text-white/58 md:text-[15px] md:leading-7">
-                    YouTube channel is a go-to for technical deep-dives,
-                    attracting high-LTV traders and seasoned investors who
-                    prioritize platform stability.
+                    Rafael (Bauman MSTU Cryptography Alum) is widely considered
+                    the 'technical conscience' of the Russian-speaking crypto
+                    community. Since 2019, his platform 'Slezi Satoshi' has
+                    prioritized protocol-level analysis and long-term
+                    macro-cycles over short-term market noise. His audience is
+                    composed of battle-hardened investors and 'thinking' capital
+                    who value structural logic and technical integrity. An
+                    endorsement here is perceived as a verification of
+                    legitimacy by the most skeptical segment of the market.
                   </p>
                   <div className="text-[12px] leading-5 text-white/50 md:text-[13px] md:leading-6">
                     237k YouTube • 134k Telegram • Extended ecosystem
                   </div>
 
-                  <div className="rounded-[16px] border border-white/10 bg-black/25 px-4 py-3 md:rounded-[18px] md:px-5 md:py-4">
-                    <div className="text-[11px] uppercase tracking-[0.15em] text-white/45 md:text-[12px] md:tracking-[0.18em]">
-                      Combined Entry
+                  <div className="space-y-3">
+                    <div className="rounded-[16px] border border-white/10 bg-black/25 px-4 py-3 md:rounded-[18px] md:px-5 md:py-4">
+                      <div className="text-[10px] uppercase tracking-[0.15em] text-white/45 md:text-[12px] md:tracking-[0.18em]">
+                        YouTube Integration
+                      </div>
+                      <div className="pt-2 text-[18px] font-semibold tracking-[-0.02em] text-white md:text-[22px]">
+                        $6,000
+                      </div>
                     </div>
-                    <div className="pt-2 text-[18px] font-semibold tracking-[-0.02em] text-white md:text-[22px]">
-                      $8,500
+                    <div className="rounded-[16px] border border-white/10 bg-black/20 px-4 py-3 md:rounded-[18px] md:px-5 md:py-4">
+                      <div className="text-[10px] uppercase tracking-[0.15em] text-white/45 md:text-[12px] md:tracking-[0.18em]">
+                        Telegram Placement
+                      </div>
+                      <div className="pt-2 text-[18px] font-semibold tracking-[-0.02em] text-white md:text-[22px]">
+                        $2,500
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -987,7 +1012,7 @@ export default function TelescopeMediaKit() {
               <div className="p-4 sm:p-5 md:p-9">
                 <div className="max-w-[760px]">
                   <div className="inline-flex rounded-full border border-white/10 bg-black/35 px-3 py-1.5 text-[10px] uppercase tracking-[0.18em] text-[#d7c9ff] backdrop-blur-md sm:px-4 sm:py-2 sm:text-[11px] sm:tracking-[0.22em]">
-                    Strategic Partner
+                    Institutional Media
                   </div>
 
                   <h3 className="pt-4 text-[30px] font-semibold leading-[0.98] tracking-[-0.04em] text-white sm:text-[34px] md:pt-6 md:text-[40px] md:leading-[0.94]">
@@ -995,16 +1020,19 @@ export default function TelescopeMediaKit() {
                   </h3>
 
                   <p className="pt-3 text-[16px] leading-7 text-white/76 sm:text-[17px] md:pt-4 md:text-[18px] md:leading-8">
-                    The largest crypto media network in the CIS region since
-                    2017, providing massive presence across YouTube and
-                    Telegram.
+                    The primary institutional-grade media house of the CIS
+                    crypto industry, operating since 2017.
                   </p>
 
                   <p className="pt-4 text-[14px] leading-6 text-white/58 md:pt-5 md:text-[15px] md:leading-7">
-                    High-frequency exposure through 25k+ views per Telegram post
-                    and 25–55k views on YouTube deep dives and podcasts. Massive
-                    reach and market dominance, trusted by Tier-1 exchanges for
-                    major launches and wide-scale user acquisition.
+                    Pro Blockchain, led by Maxim Gerasimov and Vyacheslav Nosko,
+                    is the longest-standing information agency in the
+                    Russian-speaking market. Having survived every bear market
+                    since 2017, they provide a level of editorial rigor and
+                    ecosystem-level transparency that is unmatched. Their
+                    platform serves as the professional 'record of truth' for
+                    the industry—covering everything from protocol logic to
+                    institutional shifts.
                   </p>
                 </div>
 
@@ -1196,17 +1224,22 @@ export default function TelescopeMediaKit() {
                   <div className="flex flex-col gap-4 md:flex-row md:items-start md:justify-between">
                     <div className="max-w-[480px]">
                       <div className="mb-3 text-[10px] font-semibold uppercase tracking-[0.2em] text-white/50 md:mb-4">
-                        Flagship Mass Awareness Asset
+                        Elite Mass Awareness Hub
                       </div>
                       <h3 className="text-[30px] font-bold leading-none tracking-tighter text-white sm:text-[36px] md:text-[42px]">
                         Николай Соболев
                       </h3>
                       <p className="pt-4 text-[15px] leading-6 text-white/50 sm:text-[16px] sm:leading-7 md:pt-6 md:text-[17px] md:leading-[1.65]">
-                        One of the strongest broad-reach integrations in the
-                        entire media kit. Built for maximum brand awareness.
-                        Instead of paying the standard visible YouTube rate, get
-                        a bundled premium placement with Telegram posts included
-                        at a much stronger entry point.
+                        The Man whose name is known by anyone in Russia born in
+                        the last 30 years. The ultimate bridge between
+                        high-scale media reach and analytical depth. Nikolay
+                        (SPbPU Economics Alum) has evolved from a cultural
+                        trendsetter into the primary analytical voice of the CIS
+                        region. His platform offers more than views; it provides
+                        institutional-level social proof. An endorsement here
+                        functions as a high-level verification, making it the
+                        perfect vehicle for capturing dominant market share
+                        while maintaining an elite brand image.
                       </p>
                     </div>
                     <div className="md:text-right">
@@ -1217,7 +1250,7 @@ export default function TelescopeMediaKit() {
                         $25,000
                       </div>
                       <div className="mt-1 text-[12px] text-white/30 line-through">
-                        Standard YT: $31,250
+                        Standard Price: $31,250
                       </div>
                     </div>
                   </div>
@@ -1234,10 +1267,10 @@ export default function TelescopeMediaKit() {
                       </div>
                       <div className="space-y-1">
                         <div className="text-[10px] uppercase tracking-[0.18em] text-white/30 md:tracking-widest">
-                          TG Subs
+                          Audience
                         </div>
                         <div className="text-[17px] font-semibold text-white/90 md:text-[18px]">
-                          113,000
+                          5M+ Subscribers
                         </div>
                       </div>
                     </div>
@@ -1246,8 +1279,8 @@ export default function TelescopeMediaKit() {
                         Strategic Advantage
                       </div>
                       <div className="text-[12px] leading-5 text-white/40">
-                        Bundles YT + TG into one entry point, increasing ROI
-                        while keeping creator-level trust intact.
+                        Bundles mass-market YouTube integration with targeted
+                        Telegram seeds for maximum conversion and ROI.
                       </div>
                     </div>
                   </div>
@@ -1269,12 +1302,6 @@ export default function TelescopeMediaKit() {
                   <br />
                   Inventory
                 </h2>
-              </div>
-
-              <div className="max-w-[420px] text-[14px] leading-6 text-white/55 md:text-[15px] md:leading-7">
-                A complete directory of available placements, creator
-                integrations, and bundled campaign assets across the TeleScope
-                network.
               </div>
             </div>
 
