@@ -13,7 +13,7 @@ export default function TelescopeMediaKit() {
       image: "/itpedia.jpg",
       name: "itpedia",
       type: "YouTube Integration",
-      views: "750k–1.2M+ (Negotiable)",
+      views: "450 000 - 1 000 000 (Negotiable)",
       audience: "2.5M+ subs",
       price: "$8,125",
     },
@@ -21,7 +21,7 @@ export default function TelescopeMediaKit() {
       image: "/шевцов.jpg",
       name: "Алексей Шевцов",
       type: "YouTube Integration",
-      views: "700k–1.2M+ (Negotiable)",
+      views: "700 000–2 000 000+ (Negotiable)",
       audience: "2.08M subs",
       price: "$10,000",
     },
@@ -29,7 +29,7 @@ export default function TelescopeMediaKit() {
       image: "/igor_link.jpg",
       name: "Игорь Линк",
       type: "YouTube Integration",
-      views: "350k–600k (Negotiable)",
+      views: "300 000–700 000+ (Negotiable)",
       audience: "1.24M subs",
       price: "$4,750",
     },
@@ -105,6 +105,23 @@ export default function TelescopeMediaKit() {
       views: "3.6k avg views",
       audience: "18k subs",
       price: "$750",
+    },
+
+    {
+      image: "/олег_артемьев.jpg",
+      name: "Олег Артемьев",
+      type: "YouTube + Telegram Integration",
+      views: "40k–250k+ views Youtube, 30k+ Telegram",
+      audience: "900 000",
+      price: "$12,500+",
+    },
+    {
+      image: "/олег_артемьев.jpg",
+      name: "Олег Артемьев",
+      type: "Telegram Placement",
+      views: "30k+ avg views",
+      audience: "165 000",
+      price: "$6,250 – $8,750",
     },
     {
       image: "/muhtov.jpg",
@@ -259,6 +276,14 @@ export default function TelescopeMediaKit() {
       price: "$1,625",
     },
     {
+      image: "/sailer_1.jpg",
+      name: "Sailer",
+      type: "Dedicated YouTube Review",
+      views: "30k+ avg views",
+      audience: "220k subs",
+      price: "$3,125+",
+    },
+    {
       image: "/pro-blockchain_media.jpg",
       name: "Pro Blockchain",
       type: "YouTube + Telegram Placement",
@@ -306,19 +331,18 @@ export default function TelescopeMediaKit() {
       metrics: ["382k YouTube • 155k Telegram • Verified channel"],
     },
     {
-      name: "Сатоши",
-      image: "/slezi_satoshi.jpg",
-      badge: "Top Offer",
+      name: "Олег Артемьев",
+      image: "/олег_артемьев.jpg",
+      badge: "Most Trusted",
       headline:
-        "A cornerstone media ecosystem in the CIS with long-term audience loyalty and a reputation for deep analytical content.",
+        "The most trusted blogger in the CIS crypto space with elite audience engagement.",
       description:
-        "YouTube channel is a go-to for technical deep-dives, attracting high-LTV traders and seasoned investors who prioritize platform stability. Massive authority, high retention, and an audience that consistently generates significant trading volume.",
+        "Both the highest viewed and trusted blogger with insane audience engagement both in telegram and youtube. Audience is entirely made of people trying to learn from him to trade and to see which projects/people online are either scammers or can be trusted. His recommendation will not just will yield lots of targeted audience but will improve the image of the brand.",
       platforms: [
-        { label: "YouTube Integration", value: "$6,000" },
-        { label: "Telegram Placement", value: "$2,500" },
-        { label: "Combined Entry", value: "$8,500" },
+        { label: "YouTube + Telegram", value: "$12,500+" },
+        { label: "Telegram Placement", value: "$6,250–$8,750" },
       ],
-      metrics: ["237k YouTube • 134k Telegram • Extended ecosystem"],
+      metrics: ["40k–250k+ YouTube • 30k+ Telegram • Elite Engagement"],
     },
     {
       name: "Gennady M",
@@ -336,7 +360,7 @@ export default function TelescopeMediaKit() {
       metrics: ["227k YouTube • 64k Telegram • ~80k avg views"],
     },
     {
-      name: "Сайлер",
+      name: "Sailer",
       image: "/sailer_1.jpg",
       badge: "Top Offer",
       headline:
@@ -344,66 +368,39 @@ export default function TelescopeMediaKit() {
       description:
         "The best deal in the network for the combination of very affordable price and result.",
       platforms: [
+        { label: "Dedicated YouTube Review", value: "$3,125+" },
         { label: "YouTube Integration", value: "$1,625" },
         { label: "Telegram Placement", value: "$500" },
-        { label: "Combined Entry", value: "$2,125" },
       ],
       metrics: ["220k YouTube • ~30k avg views"],
-    },
-    {
-      name: "001k.trade",
-      image: "/trade001k.jpg",
-      badge: "Premium Channel",
-      headline:
-        "Aggressive day-trading channel led by professional traders. Focus is 100% on live setups and leverage plays.",
-      description:
-        "The highest click-through rates (CTR) in our network. Perfect for driving immediate deposits and active trading sessions.",
-      platforms: [{ label: "Telegram Placement", value: "$3,125" }],
-      metrics: [
-        "116k subscribers • 23–25k avg views • Advanced trader audience",
-      ],
-    },
-    {
-      name: "Pro Blockchain",
-      image: "/pro-blockchain_media.jpg",
-      badge: "Strategic Partner",
-      headline:
-        "The largest crypto media network in the CIS region since 2017, providing massive presence across YouTube and Telegram.",
-      description:
-        "High-frequency exposure through 25k+ views per Telegram post and 25–55k views on YouTube deep dives and podcasts. Massive reach and market dominance, trusted by Tier-1 exchanges for major launches and wide-scale user acquisition.",
-      platforms: [
-        { label: "Telegram Placement", value: "$2,000" },
-        { label: "YouTube Integration", value: "$2,500" },
-        { label: "YT Review + Telegram", value: "$5,625" },
-      ],
-      metrics: [
-        "190k Telegram • 56.7k Pro Crypto Trading • 232k YouTube • 25–55k YouTube views",
-      ],
     },
   ];
 
   const LOGOS = [
+    "/crypto_lady.jpg", // Своп с Олегом
+    "/itpedia.jpg",
+    "/pro_blockchain_squad.jpg", // Своп с Шевцовым
+    "/igor_link.jpg",
     "/a01k.jpg",
     "/a01ktraders.jpg",
     "/altador.jpg",
     "/artur_ict.jpg",
     "/bogdan_gde_x.jpg",
     "/crypto_bosh.jpg",
-    "/crypto_headlines.jpg",
-    "/crypto_lady.jpg",
+    "/sailer_1.jpg", // Своп с Headlines
+    "/олег_артемьев.jpg", // Своп с Lady
     "/cryptomera.jpg",
     "/dnevnick_capitanicka.jpg",
     "/forex_trade_wit.jpg",
     "/gennady_m_telegram.jpg",
     "/gennady_m_youtube.jpg",
     "/muhtov.jpg",
-
     "/pitupi.jpg",
-    "/pro_blockchain_squad.jpg",
+    "/шевцов.jpg", // Теперь вместо Squad
     "/pro_blockchain_youtube.jpg",
     "/pro_crypto_trading.jpg",
     "/pro-blockchain_media.jpg",
-    "/sailer_1.jpg",
+    "/crypto_headlines.jpg", // Своп с Sailer
     "/sailer_2.jpg",
     "/satoshi_finance.jpg",
     "/satoshi_news.jpg",
@@ -453,11 +450,10 @@ export default function TelescopeMediaKit() {
   return (
     <div className="bg-[#07090f] text-white min-h-screen ">
       <div className="mx-auto w-[1100px] px-10 py-10 space-y-8 print:w-[1100px]">
+        {/* --- HERO SECTION --- */}
         <section className="relative min-h-[1320px] rounded-[36px] overflow-hidden border border-white/10 bg-[#07090f] px-14 py-14 flex flex-col justify-between print:break-after-page">
           <div className="absolute inset-0 bg-[radial-gradient(circle_at_20%_18%,rgba(77,163,255,0.10),transparent_24%),radial-gradient(circle_at_78%_14%,rgba(138,92,246,0.10),transparent_22%),linear-gradient(180deg,#0a0d14_0%,#07090f_100%)]" />
           <div className="absolute inset-0 opacity-[0.06] bg-[linear-gradient(to_right,rgba(255,255,255,0.06)_1px,transparent_1px),linear-gradient(to_bottom,rgba(255,255,255,0.06)_1px,transparent_1px)] bg-[size:48px_48px]" />
-          <div className="absolute left-1/2 top-[26%] h-[260px] w-[260px] -translate-x-1/2 rounded-full bg-[#4DA3FF]/18 blur-[130px]" />
-          <div className="absolute left-[62%] top-[16%] h-[220px] w-[220px] -translate-x-1/2 rounded-full bg-[#8a5cf6]/14 blur-[120px]" />
 
           <div className="relative z-20 flex items-center justify-between">
             <div className="text-sm uppercase tracking-[0.38em] text-white/45">
@@ -470,9 +466,10 @@ export default function TelescopeMediaKit() {
 
           <div className="relative z-20 pt-14">
             <div className="max-w-[950px]">
-              <h1 className="text-[58px] leading-[1.02] font-semibold tracking-[-0.035em] text-white max-w-[820px]">
-                Access 4M+ crypto traders across 40+ of the most trusted trading
-                communities in the CIS
+              <h1 className="text-[58px] leading-[1.02] font-semibold tracking-[-0.035em] text-white max-w-[850px]">
+                Access <span className="text-[#59c7ff]">10M+</span> High Net
+                Worth Crypto Trading & Tech Audience across most trusted
+                communities in the CIS Region
               </h1>
 
               <div className="mt-10 text-[26px] leading-[1.3] italic text-white/85 tracking-[-0.01em]">
@@ -498,9 +495,7 @@ export default function TelescopeMediaKit() {
                       Real-Time Analytics:
                     </strong>{" "}
                     Track campaign success live with anti-bot filtering and
-                    performance graphs for every channel. Can be extended for
-                    your internal API to track actual deposits and FTD amounts
-                    in real time.
+                    performance graphs for every channel.
                   </p>
                 </div>
               </div>
@@ -509,55 +504,56 @@ export default function TelescopeMediaKit() {
             <div className="relative mt-16 h-[560px] overflow-hidden rounded-[30px] border border-white/8 bg-white/[0.02]">
               <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(77,163,255,0.08),transparent_45%)]" />
               <div className="absolute inset-0">
-                {LOGOS.map(function (src, index) {
-                  const item = HERO_LOGO_POSITIONS[index];
-                  return (
-                    <img
-                      key={src}
-                      src={src}
-                      alt=""
-                      className="absolute rounded-[22px] object-cover border border-white/10 shadow-[0_20px_60px_rgba(0,0,0,0.45)]"
-                      style={{
-                        top: item.top,
-                        left: item.left,
-                        width: `${item.size}px`,
-                        height: `${item.size}px`,
-                        transform: `rotate(${item.rotate}deg)`,
-                        opacity: item.opacity,
-                      }}
-                    />
-                  );
-                })}
+                {LOGOS.slice(0, HERO_LOGO_POSITIONS.length).map(
+                  function (src, index) {
+                    const item = HERO_LOGO_POSITIONS[index];
+                    return (
+                      <img
+                        key={src}
+                        src={src}
+                        alt=""
+                        className="absolute rounded-[22px] object-cover border border-white/10 shadow-[0_20px_60px_rgba(0,0,0,0.45)]"
+                        style={{
+                          top: item.top,
+                          left: item.left,
+                          width: `${item.size}px`,
+                          height: `${item.size}px`,
+                          transform: `rotate(${item.rotate}deg)`,
+                          opacity: item.opacity,
+                        }}
+                      />
+                    );
+                  },
+                )}
               </div>
-
               <div className="absolute inset-x-0 top-0 h-24 bg-gradient-to-b from-[#07090f] to-transparent" />
               <div className="absolute inset-x-0 bottom-0 h-24 bg-gradient-to-t from-[#07090f] to-transparent" />
               <div className="absolute inset-y-0 left-0 w-16 bg-gradient-to-r from-[#07090f] to-transparent" />
               <div className="absolute inset-y-0 right-0 w-16 bg-gradient-to-l from-[#07090f] to-transparent" />
             </div>
           </div>
+
           <div className="relative z-20 flex items-end justify-between gap-10 pt-14">
             <div className="max-w-[520px]">
               <div className="text-[13px] uppercase tracking-[0.22em] text-white/35">
-                For brands that need reach, trust, and execution
+                The Ultimate Gateway to CIS Digital Markets
               </div>
               <div className="mt-4 text-[15px] leading-7 text-white/52">
-                Built for exchanges, wallets, tax software, trading tools, and
-                crypto products looking for scalable access to high-intent
-                trader audiences across CIS.
+                Built for brands looking for scalable access to high-intent
+                investor and tech-savvy audiences across the region.
               </div>
             </div>
 
             <div className="grid grid-cols-3 gap-4 min-w-[520px]">
-              <div className="rounded-[24px] border border-white/10 bg-black/20 px-5 py-5 backdrop-blur-md">
+              <div className="rounded-[24px] border border-white/10 bg-black/20 px-5 py-5 backdrop-blur-md text-center">
                 <div className="text-[30px] font-semibold tracking-tight text-white">
-                  4M+
+                  10M+
                 </div>
                 <div className="mt-2 text-[11px] uppercase tracking-[0.22em] text-white/45">
-                  Combined Audience
+                  Combined Reach
                 </div>
               </div>
-              <div className="rounded-[24px] border border-white/10 bg-black/20 px-5 py-5 backdrop-blur-md">
+              <div className="rounded-[24px] border border-white/10 bg-black/20 px-5 py-5 backdrop-blur-md text-center">
                 <div className="text-[30px] font-semibold tracking-tight text-white">
                   40+
                 </div>
@@ -565,7 +561,7 @@ export default function TelescopeMediaKit() {
                   Verified Communities
                 </div>
               </div>
-              <div className="rounded-[24px] border border-white/10 bg-black/20 px-5 py-5 backdrop-blur-md">
+              <div className="rounded-[24px] border border-white/10 bg-black/20 px-5 py-5 backdrop-blur-md text-center">
                 <div className="text-[30px] font-semibold tracking-tight text-white">
                   Multi
                 </div>
@@ -733,6 +729,7 @@ export default function TelescopeMediaKit() {
         <section className="min-h-[1320px] rounded-[36px] border border-white/10 bg-[linear-gradient(180deg,_#0b0f18_0%,_#07090f_100%)] px-14 py-14 print:break-after-page">
           <div className="space-y-6">
             <div className="grid grid-cols-2 gap-6">
+              {/* 001k.trade remains unchanged */}
               <div className="rounded-[30px] border border-white/10 bg-white/[0.04] overflow-hidden">
                 <div className="relative h-[280px] overflow-hidden">
                   <img
@@ -782,45 +779,47 @@ export default function TelescopeMediaKit() {
                 </div>
               </div>
 
+              {/* Satoshi replaces Crypto Headlines */}
               <div className="rounded-[30px] border border-white/10 bg-white/[0.04] overflow-hidden">
                 <div className="relative h-[280px] overflow-hidden">
                   <img
-                    src="/crypto_headlines.jpg"
-                    alt="Crypto Headlines"
+                    src="/slezi_satoshi.jpg"
+                    alt="Сатоши"
                     className="h-full w-full object-cover"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-[#07090f] via-[#07090f]/20 to-transparent" />
                   <div className="absolute left-6 top-6 rounded-full border border-white/10 bg-black/35 px-4 py-2 text-[11px] uppercase tracking-[0.22em] text-[#a8d1ff] backdrop-blur-md">
-                    Network Asset
+                    Top Offer
                   </div>
                 </div>
 
                 <div className="p-7 space-y-5">
                   <div>
                     <h3 className="text-[36px] leading-none font-semibold tracking-[-0.03em] text-white">
-                      Crypto Headlines
+                      Сатоши
                     </h3>
                     <p className="pt-4 text-[18px] leading-8 text-white/76">
-                      One of the most-read news networks in the region. 30k+
-                      views per post within 24 hours.
+                      A cornerstone media ecosystem with long-term audience
+                      loyalty.
                     </p>
                   </div>
 
                   <p className="text-[15px] leading-7 text-white/58">
-                    Best for massive reach and staying at the top of the daily
-                    news cycle for active market participants.
+                    YouTube channel is a go-to for technical deep-dives,
+                    attracting high-LTV traders and seasoned investors who
+                    prioritize platform stability.
                   </p>
                   <div className="pt-1 text-[13px] leading-6 text-white/50">
-                    137k subscribers • 26k avg views • Broad crypto audience
+                    237k YouTube • 134k Telegram • Extended ecosystem
                   </div>
 
                   <div className="space-y-3 pt-1">
                     <div className="flex items-center justify-between rounded-[18px] border border-white/10 bg-black/25 px-5 py-4">
                       <div className="text-[12px] uppercase tracking-[0.18em] text-white/45">
-                        Placement Range
+                        Combined Entry
                       </div>
-                      <div className="text-[18px] font-semibold tracking-[-0.02em] text-white">
-                        $750–$1,875
+                      <div className="text-[22px] font-semibold tracking-[-0.02em] text-white">
+                        $8,500
                       </div>
                     </div>
                   </div>
@@ -828,6 +827,7 @@ export default function TelescopeMediaKit() {
               </div>
             </div>
 
+            {/* Pro Blockchain remains unchanged */}
             <div className="rounded-[30px] border border-[#7e6cff]/20 bg-[linear-gradient(135deg,rgba(77,163,255,0.06),rgba(138,92,246,0.10))] overflow-hidden">
               <div className="p-8 md:p-9">
                 <div className="flex items-start justify-between gap-6">
@@ -970,39 +970,73 @@ export default function TelescopeMediaKit() {
               </div>
             </div>
 
-            <div className="space-y-6">
+            {/* --- WHY THEM SECTION (Same as Hero) --- */}
+            <div>
+              <div className="text-[26px] leading-[1.3] italic text-white/85 tracking-[-0.01em]">
+                Why them:
+              </div>
+
+              <div className="mt-8 space-y-5">
+                <div className="flex items-start gap-4">
+                  <div className="mt-[11px] h-[7px] w-[7px] shrink-0 rounded-full bg-[#59c7ff]" />
+                  <p className="text-[19px] leading-8 text-white/80">
+                    Each one has promoted crypto projects before, advertisers
+                    came back for more integrations as they did extremely well.
+                  </p>
+                </div>
+                <div className="flex items-start gap-4">
+                  <div className="mt-[11px] h-[7px] w-[7px] shrink-0 rounded-full bg-[#59c7ff]" />
+                  <p className="text-[19px] leading-8 text-white/80">
+                    They have authority, engagement and trust of their audiences
+                    on one of a kind level, making their integrations genuine
+                    recommendation which their community listens and follows
+                    passionately.
+                  </p>
+                </div>
+                <div className="flex items-start gap-4">
+                  <div className="mt-[11px] h-[7px] w-[7px] shrink-0 rounded-full bg-[#59c7ff]" />
+                  <p className="text-[19px] leading-8 text-white/80">
+                    Audiences themselves are tech and crypto people, most use
+                    crypto wallets, exchanges etc. and are advanced, capable
+                    individuals.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="space-y-6 pt-6">
               {[
                 {
                   name: "itpedia",
                   image: "/itpedia.jpg",
                   badge: "Industry Icon",
-                  views: "750,000 — 1,200,000+",
-                  desc: "The primary tech trendsetter. High-impact cultural influence and long-term brand authority.",
+                  views: "450,000 — 1,000,000+",
+                  desc: "The primary tech trendsetter in the CIS with a colossal credit of trust. His reviews shape market opinion, and integrations are perceived as personal expert recommendations, which is critical for high-risk crypto products. The perfect choice for capturing dominant market share and building long-term brand authority.",
                   price: "$8,125",
                 },
                 {
                   name: "Алексей Шевцов",
                   image: "/шевцов.jpg",
                   badge: "Primary Opinion Leader",
-                  views: "700,000 — 1,200,000+",
-                  desc: "Unrivaled engagement levels. Direct bridge to the most active crypto-native demographic in the CIS.",
+                  views: "700,000 — 2,000,000+",
+                  desc: "The absolute leader in engagement with direct access to the most active tech and crypto community. His audience is not just viewers, but loyal followers ready for action. Integration here provides explosive growth in brand awareness and a flood of new audience that no one else in the CIS among non-crypto focused channels can provide.",
                   price: "$10,000",
                 },
                 {
-                  name: "Игорь Линк",
+                  name: "Igor Link",
                   image: "/igor_link.jpg",
                   badge: "Strategic Reach",
-                  views: "350,000 — 600,000+",
-                  desc: "Analytical and viral exposure. Perfect for building immediate trust and complex product explanation.",
+                  views: "300,000 — 700,000+",
+                  desc: "Igor himself is a blogger on anything tech related, his videos are deep but clear and easy to understand reviews which hundreads of thousands watch and trust deeply. Had partnered with crypto exchange companies before and very successfuly, thanks to his audience being active crypto users and him showcasing on video exactly how the product works",
                   price: "$4,750",
                 },
               ].map((item) => (
                 <div
                   key={item.name}
-                  className="group relative flex h-[360px] rounded-[36px] border border-white/10 bg-white/[0.03] transition-all duration-500 hover:border-white/20 hover:bg-white/[0.05] overflow-hidden"
+                  className="group relative flex min-h-[360px] h-auto rounded-[36px] border border-white/10 bg-white/[0.03] transition-all duration-500 hover:border-white/20 hover:bg-white/[0.05] overflow-hidden"
                 >
-                  {/* Image Part */}
-                  <div className="w-[450px] relative overflow-hidden">
+                  {/* Image Part - Height will match content auto-height */}
+                  <div className="w-[450px] relative overflow-hidden shrink-0">
                     <img
                       src={item.image}
                       className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
@@ -1011,11 +1045,10 @@ export default function TelescopeMediaKit() {
                     <div className="absolute inset-0 bg-gradient-to-r from-transparent to-[#080a12]" />
                   </div>
 
-                  {/* Content Part */}
+                  {/* Content Part - Flex justify-between keeps bottom row at the end */}
                   <div className="flex-grow pt-7 px-10 pb-8 flex flex-col justify-between">
                     <div className="flex justify-between items-start">
                       <div>
-                        {/* Увеличен отступ mb-4 для устранения тесноты */}
                         <div className="text-[10px] uppercase tracking-[0.2em] text-[#7e6cff] font-semibold mb-4">
                           {item.badge}
                         </div>
@@ -1036,7 +1069,7 @@ export default function TelescopeMediaKit() {
                       </div>
                     </div>
 
-                    <div className="flex items-center justify-between border-t border-white/5 pt-6">
+                    <div className="flex items-center justify-between border-t border-white/5 pt-6 mt-8">
                       <div className="flex gap-10">
                         <div className="space-y-1">
                           <div className="text-[10px] uppercase tracking-widest text-white/30">
@@ -1060,27 +1093,6 @@ export default function TelescopeMediaKit() {
                   </div>
                 </div>
               ))}
-            </div>
-
-            <div className="grid grid-cols-3 gap-6 pt-10">
-              <div className="rounded-[32px] border border-white/5 bg-white/[0.02] p-8 text-center">
-                <div className="text-[28px] font-bold text-white">5.8M+</div>
-                <div className="pt-2 text-[10px] uppercase tracking-[0.2em] text-white/30">
-                  Core Loyal Subscribers
-                </div>
-              </div>
-              <div className="rounded-[32px] border border-white/5 bg-white/[0.02] p-8 text-center">
-                <div className="text-[28px] font-bold text-white">Organic</div>
-                <div className="pt-2 text-[10px] uppercase tracking-[0.2em] text-white/30">
-                  Viral Reach Potential
-                </div>
-              </div>
-              <div className="rounded-[32px] border border-white/5 bg-white/[0.02] p-8 text-center">
-                <div className="text-[28px] font-bold text-white">Verified</div>
-                <div className="pt-2 text-[10px] uppercase tracking-[0.2em] text-white/30">
-                  HNW Demographic
-                </div>
-              </div>
             </div>
           </div>
         </section>

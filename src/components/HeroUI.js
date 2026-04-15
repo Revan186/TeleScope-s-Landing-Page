@@ -11,7 +11,7 @@ export default function HeroUI() {
         </h1>
 
         <p className="mt-6 text-gray-300 text-sm md:text-base lg:text-lg max-w-2xl mx-auto leading-relaxed">
-          Access 4M+ crypto traders across the CIS region — through a single,
+          Access 10M+ Crypto Trading and High-Intent tech audience across the CIS region — through a single,
           compliant gateway.
         </p>
 
