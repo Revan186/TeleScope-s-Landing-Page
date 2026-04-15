@@ -82,12 +82,53 @@ export default function TelescopeMediaKit() {
     },
     {
       image: "/slezi_satoshi.jpg",
-      name: "Слезы Сатоши",
-      type: "Telegram Placement",
-      views: "25k avg views",
-      audience: "135k subs",
-      price: "$2,500",
+      name: "Satoshi",
+      type: "YouTube Integration",
+      views: "60k views over a week",
+      audience: "237k subs",
+      price: "$6,000",
     },
+    {
+      image: "/соболев.jpg",
+      name: "Николай Соболев",
+      type: "YouTube Integration",
+      views: "400k–900k+ avg views",
+      audience: "5M+ subs",
+      price: "$25,000",
+    },
+    {
+      image: "/соболев.jpg",
+      name: "Николай Соболев",
+      type: "Telegram: 1 Post",
+      views: "30k+ avg views",
+      audience: "113k subs",
+      price: "$1,125",
+    },
+    {
+      image: "/соболев.jpg",
+      name: "Николай Соболев",
+      type: "Telegram: 2 Posts",
+      views: "30k+ avg views",
+      audience: "113k subs",
+      price: "$2,000",
+    },
+    {
+      image: "/соболев.jpg",
+      name: "Николай Соболев",
+      type: "Telegram: 5 Posts",
+      views: "30k+ avg views",
+      audience: "113k subs",
+      price: "$6,250",
+    },
+    {
+      image: "/соболев.jpg",
+      name: "Николай Соболев",
+      type: "Late May Bundle (YT + Posts)",
+      views: "Combined Reach",
+      audience: "5M+ YT / 113k TG",
+      price: "$25,000",
+    },
+
     {
       image: "/satoshi_news.jpg",
       name: "Satoshi News",
@@ -296,14 +337,6 @@ export default function TelescopeMediaKit() {
       audience: "232k subs",
       price: "$2,500",
     },
-    {
-      image: "/slezi_satoshi.jpg",
-      name: "Satoshi",
-      type: "YouTube Integration",
-      views: "60k views over a week",
-      audience: "237k subs",
-      price: "$6,000",
-    },
   ];
 
   const topOffers = [
@@ -371,7 +404,7 @@ export default function TelescopeMediaKit() {
   const LOGOS = [
     "/crypto_lady.jpg",
     "/itpedia.jpg",
-    "/pro_blockchain_squad.jpg",
+    "/sobolev_youtube.webp",
     "/igor_link.jpg",
     "/a01k.jpg",
     "/a01ktraders.jpg",
@@ -381,6 +414,42 @@ export default function TelescopeMediaKit() {
     "/crypto_bosh.jpg",
     "/sailer_1.jpg",
     "/олег_артемьев.jpg",
+    "/cryptomera.jpg",
+    "/dnevnick_capitanicka.jpg",
+    "/forex_trade_wit.jpg",
+    "/gennady_m_telegram.jpg",
+    "/gennady_m_youtube.jpg",
+    "/muhtov.jpg",
+    "/pitupi.jpg",
+    "/шевцов.jpg",
+    "/pro_blockchain_youtube.jpg",
+    "/pro_crypto_trading.jpg",
+    "/pro-blockchain_media.jpg",
+    "/crypto_headlines.jpg",
+    "/sailer_2.jpg",
+    "/satoshi_finance.jpg",
+    "/satoshi_news.jpg",
+    "/slezi_satoshi.jpg",
+    "/speculantt.jpg",
+    "/trade_ultra.jpg",
+    "/trade001k.jpg",
+    "/trader_s_life.jpg",
+    "/tvs.jpg",
+  ];
+
+  const MOBILE_LOGOS = [
+    "/шевцов.jpg",
+    "/igor_link.jpg",
+    "/sobolev_youtube.webp",
+    "/gennady_m_youtube.jpg",
+    "/crypto_bosh.jpg",
+    "/sailer_1.jpg",
+    "/олег_артемьев.jpg",
+    "/trade001k.jpg",
+    "/pro-blockchain_media.jpg",
+    "/slezi_satoshi.jpg",
+    "/muhtov.jpg",
+    "/cryptomera.jpg",
   ];
 
   const massAwarenessOffers = [
@@ -403,7 +472,7 @@ export default function TelescopeMediaKit() {
     {
       name: "Igor Link",
       image: "/igor_link.jpg",
-      badge: "Strategic Reach",
+      badge: "Massive Trust",
       views: "300,000 — 700,000+",
       desc: "Igor himself is a blogger on anything tech related, his videos are deep but clear and easy to understand reviews which hundreads of thousands watch and trust deeply. Had partnered with crypto exchange companies before and very successfuly, thanks to his audience being active crypto users and him showcasing on video exactly how the product works",
       price: "$4,750",
@@ -429,7 +498,7 @@ export default function TelescopeMediaKit() {
           <div className="relative z-20 pt-6 sm:pt-8 md:pt-14">
             <div className="max-w-[950px]">
               <h1 className="text-[28px] font-semibold leading-[1.04] tracking-[-0.04em] text-white sm:text-[38px] md:text-[58px] md:leading-[1.02]">
-                Access <span className="text-[#59c7ff]">10M+</span> High Net
+                Access <span className="text-[#59c7ff]">15M+</span> High Net
                 Worth Crypto Trading & Tech Audience across most trusted
                 communities in the CIS Region
               </h1>
@@ -469,7 +538,7 @@ export default function TelescopeMediaKit() {
               <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(77,163,255,0.08),transparent_45%)]" />
 
               <div className="relative z-10 grid grid-cols-3 gap-3 sm:grid-cols-4 md:hidden">
-                {LOGOS.map((src, index) => (
+                {MOBILE_LOGOS.map((src, index) => (
                   <div
                     key={`${src}-${index}`}
                     className="aspect-square overflow-hidden rounded-[18px] border border-white/10 bg-black/20 shadow-[0_20px_60px_rgba(0,0,0,0.35)]"
@@ -720,7 +789,7 @@ export default function TelescopeMediaKit() {
 
             <div className="mt-6 grid grid-cols-1 gap-3 sm:grid-cols-3 md:mt-0 md:min-w-[520px] md:gap-4">
               {[
-                ["10M+", "Combined Reach"],
+                ["15M+", "Combined Reach"],
                 ["40+", "Verified Communities"],
                 ["Multi", "Channel Access"],
               ].map(([value, label]) => (
@@ -1104,6 +1173,86 @@ export default function TelescopeMediaKit() {
                   </div>
                 </div>
               ))}
+
+              {/* Exclusive Sobolev Block */}
+              <div className="mt-8 group relative overflow-hidden rounded-[22px] border border-[#ffd700]/20 bg-white/[0.03] transition-all duration-500 hover:border-[#ffd700]/40 hover:bg-white/[0.05] md:mt-12 md:flex md:min-h-[360px] md:rounded-[36px]">
+                <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,rgba(255,215,0,0.03),transparent_50%)]" />
+
+                <div className="relative h-[280px] w-full shrink-0 overflow-hidden sm:h-[320px] md:h-auto md:w-[450px]">
+                  <img
+                    src="/соболев.jpg"
+                    className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
+                    alt="Николай Соболев"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-[#080a12] via-transparent to-transparent md:bg-gradient-to-r" />
+                  <div className="absolute left-4 top-4 md:left-6 md:top-6">
+                    <div className="rounded-full border border-[#ffd700]/30 bg-[#ffd700]/10 px-3 py-1.5 text-[10px] font-semibold uppercase tracking-[0.2em] text-[#ffd700] backdrop-blur-md sm:px-4 sm:py-2">
+                      Exclusive Late May Offer
+                    </div>
+                  </div>
+                </div>
+
+                <div className="relative z-10 flex flex-1 flex-col justify-between p-4 sm:p-5 md:px-10 md:pb-8 md:pt-7">
+                  <div className="flex flex-col gap-4 md:flex-row md:items-start md:justify-between">
+                    <div className="max-w-[480px]">
+                      <div className="mb-3 text-[10px] font-semibold uppercase tracking-[0.2em] text-white/50 md:mb-4">
+                        Flagship Mass Awareness Asset
+                      </div>
+                      <h3 className="text-[30px] font-bold leading-none tracking-tighter text-white sm:text-[36px] md:text-[42px]">
+                        Николай Соболев
+                      </h3>
+                      <p className="pt-4 text-[15px] leading-6 text-white/50 sm:text-[16px] sm:leading-7 md:pt-6 md:text-[17px] md:leading-[1.65]">
+                        One of the strongest broad-reach integrations in the
+                        entire media kit. Built for maximum brand awareness.
+                        Instead of paying the standard visible YouTube rate, get
+                        a bundled premium placement with Telegram posts included
+                        at a much stronger entry point.
+                      </p>
+                    </div>
+                    <div className="md:text-right">
+                      <div className="mb-1 text-[10px] uppercase tracking-[0.18em] text-[#ffd700]/70 md:tracking-widest">
+                        Bundle Price (YT + 5 TG Posts)
+                      </div>
+                      <div className="text-[28px] font-bold leading-none tracking-tighter text-[#ffd700] sm:text-[32px] md:text-[36px]">
+                        $25,000
+                      </div>
+                      <div className="mt-1 text-[12px] text-white/30 line-through">
+                        Standard YT: $31,250
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="mt-6 flex flex-col gap-4 border-t border-[#ffd700]/10 pt-5 md:mt-8 md:flex-row md:items-center md:justify-between md:pt-6">
+                    <div className="flex gap-6 sm:gap-8">
+                      <div className="space-y-1">
+                        <div className="text-[10px] uppercase tracking-[0.18em] text-white/30 md:tracking-widest">
+                          YT Views
+                        </div>
+                        <div className="text-[17px] font-semibold text-white/90 md:text-[18px]">
+                          400k–900k+
+                        </div>
+                      </div>
+                      <div className="space-y-1">
+                        <div className="text-[10px] uppercase tracking-[0.18em] text-white/30 md:tracking-widest">
+                          TG Subs
+                        </div>
+                        <div className="text-[17px] font-semibold text-white/90 md:text-[18px]">
+                          113,000
+                        </div>
+                      </div>
+                    </div>
+                    <div className="max-w-[340px] space-y-1">
+                      <div className="text-[10px] uppercase tracking-[0.18em] text-[#ffd700]/60 md:tracking-widest">
+                        Strategic Advantage
+                      </div>
+                      <div className="text-[12px] leading-5 text-white/40">
+                        Bundles YT + TG into one entry point, increasing ROI
+                        while keeping creator-level trust intact.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </section>
