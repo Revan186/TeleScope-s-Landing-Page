@@ -128,7 +128,6 @@ export default function TelescopeMediaKit() {
       audience: "5M+ YT / 113k TG",
       price: "$25,000",
     },
-
     {
       image: "/satoshi_news.jpg",
       name: "Satoshi News",
@@ -345,6 +344,142 @@ export default function TelescopeMediaKit() {
       audience: "232k subs",
       price: "$2,500",
     },
+    {
+      image: "/varlamov.png",
+      name: "Илья Варламов",
+      type: "YouTube Integration (1 Slot)",
+      views: "1.09M+ avg views",
+      audience: "5.38M subs",
+      price: "$12,250",
+    },
+    {
+      image: "/varlamov.png",
+      name: "Илья Варламов",
+      type: "YouTube Integration (2 Slot)",
+      views: "1.09M+ avg views",
+      audience: "5.38M subs",
+      price: "$8,437.5",
+    },
+    {
+      image: "/varlamov.png",
+      name: "Илья Варламов",
+      type: "Sunday News (ЧП) - Slot 1",
+      views: "1.09M+ avg views",
+      audience: "5.38M subs",
+      price: "$15,375",
+    },
+    {
+      image: "/varlamov.png",
+      name: "Илья Варламов",
+      type: "Sunday News (ЧП) - Slot 2",
+      views: "1.09M+ avg views",
+      audience: "5.38M subs",
+      price: "$8,437.5",
+    },
+    {
+      image: "/varlamov.png",
+      name: "Илья Варламов",
+      type: "Guaranteed 1M Views Pack",
+      views: "1M views (10-day window)",
+      audience: "5.38M subs",
+      price: "$12,250",
+    },
+    {
+      image: "/varlamov.png",
+      name: "Илья Варламов",
+      type: "Guaranteed 3M Views Pack",
+      views: "3M views (10-day window)",
+      audience: "5.38M subs",
+      price: "$23,750",
+    },
+    {
+      image: "/varlamov.png",
+      name: "Илья Варламов",
+      type: "Guaranteed 5M Views Pack",
+      views: "5M views (10-day window)",
+      audience: "5.38M subs",
+      price: "$38,750",
+    },
+    {
+      image: "/varlamov.png",
+      name: "Илья Варламов",
+      type: "Guaranteed 10M Views Pack",
+      views: "10M views (10-day window)",
+      audience: "5.38M subs",
+      price: "$75,000",
+    },
+    {
+      image: "/varlamov.png",
+      name: "Илья Варламов",
+      type: "YouTube Special Project",
+      views: "Custom",
+      audience: "5.38M subs",
+      price: "$69,562.5",
+    },
+    {
+      image: "/varlamov.png",
+      name: "Илья Варламов",
+      type: "YouTube Community Post",
+      views: "High Engagement",
+      audience: "5.38M subs",
+      price: "$1,625",
+    },
+    {
+      image: "/varlamov.png",
+      name: "Илья Варламов",
+      type: "Pinned Comment",
+      views: "Contextual",
+      audience: "5.38M subs",
+      price: "$687.5",
+    },
+    {
+      image: "/drzj.webp",
+      name: "TheDRZJ",
+      type: "YouTube Integration (1 Slot)",
+      views: "304k+ avg views",
+      audience: "458k subs",
+      price: "$5,625",
+    },
+    {
+      image: "/drzj.webp",
+      name: "TheDRZJ",
+      type: "YouTube Pre-roll (5-30s)",
+      views: "304k+ avg views",
+      audience: "458k subs",
+      price: "$4,375",
+    },
+    {
+      image: "/drzj.webp",
+      name: "TheDRZJ",
+      type: "YouTube Integration (2 Slot)",
+      views: "304k+ avg views",
+      audience: "458k subs",
+      price: "$1,812.5",
+    },
+    {
+      image: "/drzj.webp",
+      name: "TheDRZJ",
+      type: "YouTube Community Post",
+      views: "High Engagement",
+      audience: "458k subs",
+      price: "$437.5",
+    },
+    {
+      image: "/drzj.webp",
+      name: "TheDRZJ",
+      type: "Pinned Comment",
+      views: "Contextual",
+      audience: "458k subs",
+      price: "$687.5",
+    },
+    {
+      image: "/drzj.webp",
+      name: "TheDRZJ",
+      type: "Twitch Banner (Month)",
+      views: "Live Stream",
+      audience: "Cross-platform",
+      price: "$2,500",
+    },
   ];
 
   const topOffers = [
@@ -506,7 +641,7 @@ export default function TelescopeMediaKit() {
           <div className="relative z-20 pt-6 sm:pt-8 md:pt-14">
             <div className="max-w-[950px]">
               <h1 className="text-[28px] font-semibold leading-[1.04] tracking-[-0.04em] text-white sm:text-[38px] md:text-[58px] md:leading-[1.02]">
-                Access <span className="text-[#59c7ff]">15M+</span> High Net
+                Access <span className="text-[#59c7ff]">20M+</span> High Net
                 Worth Crypto Trading & Tech Audience across most trusted
                 communities in the CIS Region
               </h1>
@@ -797,7 +932,7 @@ export default function TelescopeMediaKit() {
 
             <div className="mt-6 grid grid-cols-1 gap-3 sm:grid-cols-3 md:mt-0 md:min-w-[520px] md:gap-4">
               {[
-                ["15M+", "Combined Reach"],
+                ["20M+", "Combined Reach"],
                 ["40+", "Verified Communities"],
                 ["Multi", "Channel Access"],
               ].map(([value, label]) => (
@@ -1201,6 +1336,204 @@ export default function TelescopeMediaKit() {
                   </div>
                 </div>
               ))}
+
+              {/* Extended DRZJ Block */}
+              <div className="group relative mt-6 overflow-hidden rounded-[22px] border border-white/10 bg-white/[0.03] transition-all duration-500 hover:border-white/20 hover:bg-white/[0.05] md:mt-8 md:flex md:min-h-[360px] md:rounded-[36px]">
+                <div className="relative h-[220px] w-full shrink-0 overflow-hidden sm:h-[260px] md:h-auto md:w-[450px]">
+                  <img
+                    src="/drzj.webp"
+                    className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
+                    alt="TheDRZJ"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-[#080a12] via-transparent to-transparent md:bg-gradient-to-r" />
+                </div>
+
+                <div className="relative z-10 flex flex-1 flex-col justify-between p-4 sm:p-5 md:px-10 md:pb-8 md:pt-7">
+                  <div>
+                    {/* TOP ROW: Name & Stats */}
+                    <div className="flex flex-col gap-4 md:flex-row md:items-start md:justify-between">
+                      <div>
+                        <div className="mb-3 text-[10px] font-semibold uppercase tracking-[0.2em] text-[#59c7ff] md:mb-4">
+                          Technical Authority
+                        </div>
+                        <h3 className="text-[30px] font-bold leading-none tracking-tighter text-white sm:text-[36px] md:text-[42px]">
+                          TheDRZJ
+                        </h3>
+                      </div>
+                      <div className="shrink-0 md:text-right">
+                        <div className="mb-1 text-[10px] uppercase tracking-[0.18em] text-white/30 md:tracking-widest">
+                          YT Views
+                        </div>
+                        <div className="text-[24px] font-bold leading-none tracking-tighter text-white sm:text-[28px] md:text-[32px]">
+                          304,000+
+                        </div>
+                        <div className="mt-1 text-[12px] text-white/30">
+                          458k Subscribers
+                        </div>
+                      </div>
+                    </div>
+
+                    {/* FULL WIDTH DESCRIPTION */}
+                    <p className="pt-4 text-[15px] leading-6 text-white/50 sm:text-[16px] sm:leading-7 md:pt-6 md:text-[17px] md:leading-[1.65]">
+                      The gold standard for technical analysis and industry
+                      rigor. Andrey has cultivated one of the most tech-literate
+                      and loyal communities in the region (96% male). Known for
+                      his uncompromising stance on quality, his endorsement
+                      functions as an expert verdict—essential for fintech and
+                      crypto products where gaining the trust of a skeptical,
+                      high-IQ audience is paramount.
+                    </p>
+
+                    {/* PRICE GRID */}
+                    <div className="mt-6 grid grid-cols-2 gap-3 border-t border-white/5 pt-5 md:mt-8 md:gap-4 md:pt-6">
+                      <div className="rounded-[16px] border border-white/5 bg-black/20 p-3 md:p-4">
+                        <div className="text-[10px] uppercase tracking-[0.15em] text-[#a8d1ff] md:text-[11px] md:tracking-[0.18em]">
+                          Integration 60-120s
+                        </div>
+                        <div className="pt-2 text-[18px] font-semibold text-white md:text-[20px]">
+                          $5,625
+                        </div>
+                      </div>
+                      <div className="rounded-[16px] border border-white/5 bg-black/20 p-3 md:p-4">
+                        <div className="text-[10px] uppercase tracking-[0.15em] text-[#a8d1ff] md:text-[11px] md:tracking-[0.18em]">
+                          Pre-roll 5-30s
+                        </div>
+                        <div className="pt-2 text-[18px] font-semibold text-white md:text-[20px]">
+                          $4,375
+                        </div>
+                      </div>
+                      <div className="rounded-[16px] border border-white/5 bg-black/20 p-3 md:p-4">
+                        <div className="text-[10px] uppercase tracking-[0.15em] text-[#a8d1ff] md:text-[11px] md:tracking-[0.18em]">
+                          Twitch Banner (Month)
+                        </div>
+                        <div className="pt-2 text-[18px] font-semibold text-white md:text-[20px]">
+                          $2,500
+                        </div>
+                      </div>
+                      <div className="rounded-[16px] border border-white/5 bg-black/20 p-3 md:p-4">
+                        <div className="text-[10px] uppercase tracking-[0.15em] text-[#a8d1ff] md:text-[11px] md:tracking-[0.18em]">
+                          Community Post / Comment
+                        </div>
+                        <div className="pt-2 text-[18px] font-semibold text-white md:text-[20px]">
+                          $437.5 / $687.5
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              {/* Platinum Varlamov Block */}
+              <div className="group relative mt-8 overflow-hidden rounded-[22px] border border-[#e2e8f0]/25 bg-gradient-to-b from-[#f8fafc]/[0.04] to-transparent transition-all duration-500 hover:border-[#e2e8f0]/40 hover:bg-[#f8fafc]/[0.06] md:mt-12 md:flex md:min-h-[400px] md:rounded-[36px]">
+                <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_left,rgba(226,232,240,0.05),transparent_60%)]" />
+
+                <div className="relative h-[280px] w-full shrink-0 overflow-hidden sm:h-[320px] md:h-auto md:w-[450px]">
+                  <img
+                    src="/varlamov.png"
+                    className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
+                    alt="Илья Варламов"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-[#080a12] via-transparent to-transparent md:bg-gradient-to-r" />
+                </div>
+
+                <div className="relative z-10 flex flex-1 flex-col justify-between p-4 sm:p-5 md:px-10 md:pb-8 md:pt-7">
+                  <div>
+                    {/* TOP ROW: Name & Stats */}
+                    <div className="flex flex-col gap-4 md:flex-row md:items-start md:justify-between">
+                      <div>
+                        <div className="mb-3 text-[10px] font-semibold uppercase tracking-[0.2em] text-[#cbd5e1] md:mb-4">
+                          Institutional Platinum Offer
+                        </div>
+                        <h3 className="text-[30px] font-bold leading-none tracking-tighter text-white sm:text-[36px] md:text-[42px]">
+                          Илья Варламов
+                        </h3>
+                      </div>
+                      <div className="shrink-0 md:text-right">
+                        <div className="mb-1 text-[10px] uppercase tracking-[0.18em] text-[#cbd5e1]/70 md:tracking-widest">
+                          Standard Integration (1 Slot)
+                        </div>
+                        <div className="text-[28px] font-bold leading-none tracking-tighter text-[#e2e8f0] sm:text-[32px] md:text-[36px]">
+                          $12,250
+                        </div>
+                        <div className="mt-1 text-[12px] text-[#94a3b8]">
+                          1.09M+ Avg Views • 5.38M Subs
+                        </div>
+                      </div>
+                    </div>
+
+                    {/* FULL WIDTH DESCRIPTION */}
+                    <p className="pt-4 text-[15px] leading-6 text-[#94a3b8] sm:text-[16px] sm:leading-7 md:pt-6 md:text-[17px] md:leading-[1.65]">
+                      The most influential independent media channel in the CIS,
+                      reaching the intellectual and business elite (65% mature
+                      male demographic). His 'News of the Week' (ЧП) format is
+                      the primary source of information for a solvent audience.
+                      An integration here provides premium association,
+                      high-level social proof, and objectivity—critical for
+                      brands targeting high-net-worth individuals.
+                    </p>
+
+                    {/* PRICE GRID */}
+                    <div className="mt-6 flex flex-col gap-5 border-t border-[#e2e8f0]/10 pt-5 md:mt-8 md:pt-6">
+                      <div className="text-[12px] font-semibold uppercase tracking-[0.2em] text-[#cbd5e1]">
+                        Guaranteed View Packages (10-Day KPI Window)
+                      </div>
+                      <div className="grid grid-cols-2 gap-3 md:gap-4">
+                        <div className="rounded-[16px] border border-[#e2e8f0]/20 bg-[#0f172a]/40 p-3 backdrop-blur-sm md:p-4">
+                          <div className="text-[10px] uppercase tracking-[0.15em] text-[#94a3b8] md:text-[11px] md:tracking-[0.18em]">
+                            1M Views Pack
+                          </div>
+                          <div className="pt-2 text-[18px] font-bold text-[#e2e8f0] md:text-[20px]">
+                            $12,250
+                          </div>
+                        </div>
+                        <div className="rounded-[16px] border border-[#e2e8f0]/20 bg-[#0f172a]/40 p-3 backdrop-blur-sm md:p-4">
+                          <div className="text-[10px] uppercase tracking-[0.15em] text-[#94a3b8] md:text-[11px] md:tracking-[0.18em]">
+                            3M Views Pack
+                          </div>
+                          <div className="pt-2 text-[18px] font-bold text-[#e2e8f0] md:text-[20px]">
+                            $23,750
+                          </div>
+                        </div>
+                        <div className="rounded-[16px] border border-[#e2e8f0]/20 bg-[#0f172a]/40 p-3 backdrop-blur-sm md:p-4">
+                          <div className="text-[10px] uppercase tracking-[0.15em] text-[#94a3b8] md:text-[11px] md:tracking-[0.18em]">
+                            5M Views Pack
+                          </div>
+                          <div className="pt-2 text-[18px] font-bold text-[#e2e8f0] md:text-[20px]">
+                            $38,750
+                          </div>
+                        </div>
+                        <div className="rounded-[16px] border border-[#e2e8f0]/20 bg-[#0f172a]/40 p-3 backdrop-blur-sm md:p-4">
+                          <div className="text-[10px] uppercase tracking-[0.15em] text-[#94a3b8] md:text-[11px] md:tracking-[0.18em]">
+                            10M Views Pack
+                          </div>
+                          <div className="pt-2 text-[18px] font-bold text-[#e2e8f0] md:text-[20px]">
+                            $75,000
+                          </div>
+                        </div>
+                      </div>
+
+                      <div className="grid grid-cols-1 gap-3 md:grid-cols-2 md:gap-4">
+                        <div className="flex items-center justify-between rounded-[16px] border border-[#e2e8f0]/10 bg-black/20 px-4 py-3 md:px-5">
+                          <div className="text-[11px] uppercase tracking-[0.15em] text-[#94a3b8] md:text-[12px] md:tracking-[0.18em]">
+                            Sunday News (ЧП) • 1 Slot
+                          </div>
+                          <div className="font-bold text-[#e2e8f0] md:text-[18px]">
+                            $15,375
+                          </div>
+                        </div>
+                        <div className="flex items-center justify-between rounded-[16px] border border-[#e2e8f0]/10 bg-black/20 px-4 py-3 md:px-5">
+                          <div className="text-[11px] uppercase tracking-[0.15em] text-[#94a3b8] md:text-[12px] md:tracking-[0.18em]">
+                            Sunday News (ЧП) • 2 Slot
+                          </div>
+                          <div className="font-bold text-[#e2e8f0] md:text-[18px]">
+                            $8,437.5
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
 
               {/* Exclusive Sobolev Block */}
               <div className="mt-8 group relative overflow-hidden rounded-[22px] border border-[#ffd700]/20 bg-white/[0.03] transition-all duration-500 hover:border-[#ffd700]/40 hover:bg-white/[0.05] md:mt-12 md:flex md:min-h-[360px] md:rounded-[36px]">
