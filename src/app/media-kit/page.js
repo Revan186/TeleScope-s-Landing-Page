@@ -433,6 +433,38 @@ export default function TelescopeMediaKit() {
       price: "$687.5",
     },
     {
+      image: "/varlamov_travel.jpeg",
+      name: "Varlamov Travel",
+      type: "YouTube Integration (1 Slot)",
+      views: "542k avg views",
+      audience: "612k subs",
+      price: "$5,625",
+    },
+    {
+      image: "/varlamov_travel.jpeg",
+      name: "Varlamov Travel",
+      type: "YouTube Integration (2 Slot)",
+      views: "542k avg views",
+      audience: "612k subs",
+      price: "$3,750",
+    },
+    {
+      image: "/varlamov_travel.jpeg",
+      name: "Varlamov Travel",
+      type: "Guaranteed 1M Views Pack",
+      views: "1M views window",
+      audience: "612k subs",
+      price: "$8,750",
+    },
+    {
+      image: "/varlamov_travel.jpeg",
+      name: "Varlamov Travel",
+      type: "Guaranteed 3M Views Pack",
+      views: "3M views window",
+      audience: "612k subs",
+      price: "$23,750",
+    },
+    {
       image: "/drzj.webp",
       name: "TheDRZJ",
       type: "YouTube Integration (1 Slot)",
@@ -1463,13 +1495,14 @@ export default function TelescopeMediaKit() {
 
                     {/* FULL WIDTH DESCRIPTION */}
                     <p className="pt-4 text-[15px] leading-6 text-[#94a3b8] sm:text-[16px] sm:leading-7 md:pt-6 md:text-[17px] md:leading-[1.65]">
-                      The most influential independent media channel in the CIS,
-                      reaching the intellectual and business elite (65% mature
-                      male demographic). His 'News of the Week' (ЧП) format is
-                      the primary source of information for a solvent audience.
-                      An integration here provides premium association,
-                      high-level social proof, and objectivity—critical for
-                      brands targeting high-net-worth individuals.
+                      The definitive independent media platform in the CIS,
+                      commanding a high-intent audience of institutional and
+                      business leaders (65% mature male demographic). The 'News
+                      of the Week' (ЧП) franchise serves as the primary
+                      intelligence source for the region's elite. Strategic
+                      placement yields unparalleled social proof and objective
+                      authority, establishing the direct credibility required
+                      for premium fintech and digital asset brands
                     </p>
 
                     {/* PRICE GRID */}
