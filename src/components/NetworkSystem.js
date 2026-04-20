@@ -35,12 +35,12 @@ const LOGOS = [
   "/pro_crypto_trading.jpg",
   "/sailer_2.jpg",
   "/satoshi_finance.jpg",
-  "/satoshi_news.jpg",
+  "/drzj.webp",
   "/speculantt.jpg",
   "/trade_ultra.jpg",
-  "/trader_s_life.jpg",
+  "/varlamov.png",
   "/tvs.jpg",
-  "/pancryptan.jpg",
+  "/соболев.jpg",
 ];
 
 const MIN_X = Math.min(...NODE_POSITIONS.map((p) => p.x));

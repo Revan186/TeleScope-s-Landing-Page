@@ -568,9 +568,9 @@ export default function TelescopeMediaKit() {
     "/pro_blockchain_youtube.jpg",
     "/pro_crypto_trading.jpg",
     "/pro-blockchain_media.jpg",
-    "/crypto_headlines.jpg",
+    "/drzj.webp",
     "/sailer_2.jpg",
-    "/satoshi_finance.jpg",
+    "/varlamov.png",
     "/crypto_lady.jpg",
     "/slezi_satoshi.jpg",
     "/speculantt.jpg",
@@ -1623,86 +1623,98 @@ export default function TelescopeMediaKit() {
           </div>
         </section>
 
-        <section className="rounded-[22px] border border-white/10 bg-[linear-gradient(180deg,_#0b0f18_0%,_#07090f_100%)] px-4 py-5 sm:px-5 sm:py-6 md:rounded-[32px] md:p-14 print:break-after-page">
-          <div className="space-y-6 md:space-y-8">
-            <div className="flex flex-col gap-4 md:flex-row md:items-end md:justify-between md:gap-8">
-              <div>
-                <div className="text-[11px] uppercase tracking-[0.24em] text-white/55 sm:text-sm sm:tracking-[0.3em]">
-                  Full Network
-                </div>
-                <h2 className="pt-3 text-[30px] font-semibold leading-[0.98] tracking-[-0.04em] text-white sm:text-[38px] md:text-[56px] md:leading-[0.94]">
-                  Complete Media
-                  <br />
-                  Inventory
-                </h2>
+        {/* Full Network Section */}
+        <section className="rounded-[22px] border border-white/10 bg-[linear-gradient(180deg,_#0b0f18_0%,_#07090f_100%)] px-4 py-5 sm:px-5 sm:py-6 md:rounded-[36px] md:px-14 md:py-14">
+          <div className="space-y-8">
+            <div>
+              <div className="text-[11px] uppercase tracking-[0.24em] text-white/45 sm:text-sm sm:tracking-[0.32em]">
+                Full Network
               </div>
+
+              <h2 className="pt-3 text-[30px] font-semibold leading-[0.98] tracking-[-0.04em] text-white sm:text-[38px] md:pt-4 md:text-[58px] md:leading-[0.95]">
+                Complete Creator
+                <br />
+                Infrastructure
+              </h2>
             </div>
 
-            <div className="space-y-3 pt-1 md:space-y-4 md:pt-4">
-              {fullNetworkRows.map((item) => (
-                <div
-                  key={item.name + item.type + item.price}
-                  className="rounded-[18px] border border-white/10 bg-white/[0.04] p-3 sm:p-4 md:grid md:grid-cols-[88px_1.45fr_0.9fr_0.9fr_0.75fr] md:gap-4 md:rounded-[24px] md:p-5"
-                >
-                  <div className="flex items-start gap-3 md:block">
-                    <div className="h-[64px] w-[64px] shrink-0 overflow-hidden rounded-[16px] border border-white/10 bg-black/20 md:h-[72px] md:w-[72px] md:rounded-[18px]">
-                      <img
-                        src={item.image}
-                        alt={item.name}
-                        className="h-full w-full object-cover"
-                      />
-                    </div>
+            {Object.values(
+              fullNetworkRows.reduce((acc, item) => {
+                if (!acc[item.name]) {
+                  acc[item.name] = {
+                    name: item.name,
+                    image: item.image,
+                    audience: item.audience,
+                    services: [],
+                  };
+                }
 
-                    <div className="min-w-0 md:hidden">
-                      <div className="text-[18px] font-semibold leading-tight tracking-[-0.03em] text-white">
-                        {item.name}
-                      </div>
-                      <div className="pt-1 text-[11px] uppercase tracking-[0.14em] text-white/42">
-                        {item.type}
-                      </div>
-                    </div>
+                acc[item.name].services.push({
+                  type: item.type,
+                  views: item.views,
+                  price: item.price,
+                });
+
+                return acc;
+              }, {}),
+            ).map((creator) => (
+              <div
+                key={creator.name}
+                className="overflow-hidden rounded-[24px] border border-white/10 bg-white/[0.035] md:rounded-[32px]"
+              >
+                <div className="md:flex">
+                  {/* Image */}
+                  <div className="relative h-[240px] md:h-auto md:w-[330px] shrink-0 overflow-hidden">
+                    <img
+                      src={creator.image}
+                      alt={creator.name}
+                      className="h-full w-full object-cover"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-[#07090f] via-transparent to-transparent md:bg-gradient-to-r" />
                   </div>
 
-                  <div className="hidden min-w-0 md:block">
-                    <div className="text-[22px] leading-none font-semibold tracking-[-0.03em] text-white">
-                      {item.name}
-                    </div>
-                    <div className="pt-2 text-[13px] uppercase tracking-[0.18em] text-white/42">
-                      {item.type}
-                    </div>
-                  </div>
+                  {/* Content */}
+                  <div className="flex-1 p-4 sm:p-5 md:p-8">
+                    <div className="flex flex-col gap-4 md:flex-row md:items-end md:justify-between">
+                      <div>
+                        <h3 className="text-[30px] font-semibold leading-none tracking-[-0.03em] text-white md:text-[42px]">
+                          {creator.name}
+                        </h3>
 
-                  <div className="mt-3 grid grid-cols-1 gap-2 sm:grid-cols-3 md:mt-0 md:contents">
-                    <div className="rounded-[14px] border border-white/10 bg-black/20 px-3 py-3 md:rounded-[18px] md:px-4 md:py-4">
-                      <div className="text-[10px] uppercase tracking-[0.14em] text-white/42 md:text-[11px] md:tracking-[0.18em]">
-                        Avg Views
+                        <div className="pt-3 text-[13px] text-white/45 md:text-[14px]">
+                          {creator.audience}
+                        </div>
                       </div>
-                      <div className="pt-1.5 text-[14px] leading-5 font-medium text-white/80 md:pt-2 md:text-[15px] md:leading-6">
-                        {item.views}
-                      </div>
-                    </div>
 
-                    <div className="rounded-[14px] border border-white/10 bg-black/20 px-3 py-3 md:rounded-[18px] md:px-4 md:py-4">
-                      <div className="text-[10px] uppercase tracking-[0.14em] text-white/42 md:text-[11px] md:tracking-[0.18em]">
-                        Audience
-                      </div>
-                      <div className="pt-1.5 text-[14px] leading-5 font-medium text-white/80 md:pt-2 md:text-[15px] md:leading-6">
-                        {item.audience}
+                      <div className="text-[11px] uppercase tracking-[0.18em] text-[#59c7ff]">
+                        {creator.services.length} Services
                       </div>
                     </div>
 
-                    <div className="rounded-[14px] border border-white/10 bg-[linear-gradient(180deg,rgba(77,163,255,0.12),rgba(255,255,255,0.03))] px-3 py-3 sm:text-right md:rounded-[18px] md:px-4 md:py-4 md:text-right">
-                      <div className="text-[10px] uppercase tracking-[0.14em] text-white/42 md:text-[11px] md:tracking-[0.18em]">
-                        Price
-                      </div>
-                      <div className="pt-1.5 text-[18px] font-semibold leading-none tracking-[-0.03em] text-white md:pt-2 md:text-[22px]">
-                        {item.price}
-                      </div>
+                    <div className="mt-6 grid grid-cols-1 gap-3 md:grid-cols-2">
+                      {creator.services.map((service, i) => (
+                        <div
+                          key={`${creator.name}-${service.type}-${i}`}
+                          className="rounded-[18px] border border-white/10 bg-black/20 px-4 py-4"
+                        >
+                          <div className="text-[11px] uppercase tracking-[0.15em] text-white/45">
+                            {service.type}
+                          </div>
+
+                          <div className="pt-2 text-[15px] leading-6 text-white/70">
+                            {service.views}
+                          </div>
+
+                          <div className="pt-3 text-[22px] font-semibold tracking-[-0.03em] text-white">
+                            {service.price}
+                          </div>
+                        </div>
+                      ))}
                     </div>
                   </div>
                 </div>
-              ))}
-            </div>
+              </div>
+            ))}
           </div>
         </section>
       </div>
