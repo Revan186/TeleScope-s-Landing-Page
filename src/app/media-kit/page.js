@@ -65,14 +65,6 @@ export default function TelescopeMediaKit() {
       price: "$750",
     },
     {
-      image: "/sailer_2.jpg",
-      name: "Криптокрип Сайлер",
-      type: "Telegram Placement",
-      views: "10.3k avg views",
-      audience: "63k subs",
-      price: "$500",
-    },
-    {
       image: "/pitupi.jpg",
       name: "Питупи",
       type: "Telegram Placement",
@@ -313,22 +305,6 @@ export default function TelescopeMediaKit() {
       price: "$18,750",
     },
     {
-      image: "/sailer_1.jpg",
-      name: "Sailer",
-      type: "YouTube Integration",
-      views: "30k+ avg views",
-      audience: "220k subs",
-      price: "$1,625",
-    },
-    {
-      image: "/sailer_1.jpg",
-      name: "Sailer",
-      type: "Dedicated YouTube Review",
-      views: "30k+ avg views",
-      audience: "220k subs",
-      price: "$3,125+",
-    },
-    {
       image: "/pro-blockchain_media.jpg",
       name: "Pro Blockchain",
       type: "YouTube + Telegram Placement",
@@ -560,19 +536,15 @@ export default function TelescopeMediaKit() {
       metrics: ["227k YouTube • 64k Telegram • Professional Audit"],
     },
     {
-      name: "Sailer",
-      image: "/sailer_1.jpg",
-      badge: "Top Offer",
+      name: "CrypTomera",
+      image: "/cryptomera.jpg",
+      badge: "Altcoin Authority",
       headline:
-        "Award-winning trusted cryptocurrency influencer with a loyal fanbase",
+        "The definitive leader in hardware analysis, crypto mining infrastructure, and alternative yield strategies for the CIS region.",
       description:
-        "Regularly takes best crypto influencer awards and is universally considered the opinion leader. His audience lives and breathes technical analysis and discipline. What makes Sailer unique is the ability to make his viewers actively use new tools and try new projects, seeking optimal solutions to their problems and to improve.",
-      platforms: [
-        { label: "Dedicated YouTube Review", value: "$3,125+" },
-        { label: "YouTube Integration", value: "$1,625" },
-        { label: "Telegram Placement", value: "$500" },
-      ],
-      metrics: ["220k YouTube • ~30k avg views"],
+        "Roman Tomera runs the most popular mining-focused community in the Russian-speaking market. Boasting an astronomical 33%+ engagement rate, CrypTomera cuts through the noise of typical trading channels. His audience consists of active hardware operators, capital-heavy miners, and tech enthusiasts who rely on his transparent, hands-on profitability tests of farm setups, GPUs, and altcoin staking. Because his content serves as a technical blueprint, an integration here acts as a direct conversion engine for infrastructure projects, hardware services, and technical platforms.",
+      platforms: [{ label: "Telegram Placement", value: "$2,500" }],
+      metrics: ["47k subs • 15.8k avg views • 33%+ ERR"],
     },
   ];
 
@@ -690,7 +662,7 @@ export default function TelescopeMediaKit() {
                   },
                   {
                     title: "Real-Time Analytics:",
-                    text: "Track campaign success live with anti-bot filtering and performance graphs for every channel.",
+                    text: "Track campaign success live with anti-bot filtering and S2S stats for every channel.",
                   },
                 ].map((item) => (
                   <div
